@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Themes and PWA Tags -->
+    
+	<meta name="theme-color" content="blue">
+	<meta name="apple-mobile-web-app-status-bar" content="blue">
+    <link rel="apple-touch-icon" href="images/Icon/icon96.png">
+    
+
+    <!-- Materialize CSS and Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css">
+    <link type="text/css" rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    
+
+
+    <!-- Mapbox -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />
+
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json">
+
+    <!-- Materialize JS -->
+    <script src="js/materialize.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+
+	<title>COVID-19</title>
+</head>
+
+<body>
+
+    <!-- Navbar-->
+    <nav class="blue">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo center">COVID-19</a>
+        </div>
+    </nav>
+    
+    <!-- Tabs (India or Worldwide) -->
+    <div id="body">
+        <div class="containter">
+            <div id='map'></div>
+        </div>
+
+        <ul id="tabs" class="tabs tabs-fixed-width tab-demo z-depth-1">
+            <li class="tab col s3"><a class="active white-text" href="#test-india">India</a></li>
+            <li class="tab col s3"><a class="white-text"href="#test-world">Worldwide</a></li>
+        </ul>
+        <div id="test-india">
+            <!-- Numbers -->
+            <div class="row valign-wrapper">
+                <div id="card-confirm" class="card-panel col s3 z-depth-0">
+                    <span class="flow-text">Confirmed</span>
+                    <span class="flow-text" id="confirmed"></span>
+                </div>
+                <div id="card-active" class="card-panel col s3 z-depth-0">
+                    <span class="flow-text">Active</span>
+                    <span class="flow-text" id="active"></span>
+                </div>
+                <div id="card-recover" class="card-panel col s3 z-depth-0">
+                    <span class="flow-text">Recovered</span>
+                    <span class="flow-text" id="recovered"></span>
+                </div>
+                <div id="card-decease" class="card-panel col s3 z-depth-0">
+                    <span class="flow-text">Deceases</span>
+                    <span class="flow-text" id="deceases"></span>
+                </div>
+            </div>
+
+            <!-- Graphs -->
+            <div class="row">
+                <div class="col s6 offset-s1 card-panel z-depth-0" id="gr-cn">
+                    <canvas id="graph-confirm"></canvas>
+                </div>
+                <div class="col s6 card-panel z-depth-0" id="gr-ac">
+                    <canvas id="graph-active"></canvas>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s6 card-panel z-depth-0" id="gr-rc">
+                    <canvas id="graph-recover"></canvas>
+                </div>
+                <div class="col s6 card-panel z-depth-0" id="gr-dc">
+                    <canvas id="graph-decease"></canvas>
+                </div>
+            </div>
+
+            <!-- List of States -->
+            <div class="container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="white-text">States</th>
+                            <th class="red-covid">C</th>
+                            <th class="blue-covid">A</th>
+                            <th class="green-covid">R</th>
+                            <th class="gray-covid">D</th>
+                        </tr>
+                    </thead>
+            
+                    <tbody id="state-list">
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- World Wide -->
+        <div id="test-world" class="card-panel col s12 l12 red lighten-3">Worldwide</div>
+    </div>
+    
+    
+    <script src="js/main.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

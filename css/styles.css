@@ -1,0 +1,114 @@
+body {
+    background-color: #262A32;
+}
+
+.red-covid {
+    color: #FF3F66;
+}
+
+.blue-covid {
+    color: #027DFF;
+}
+
+.green-covid {
+    color: #2AA747;
+}
+
+.gray-covid {
+    color: #767F85;
+}
+
+#test-india {
+    margin-top: 10px;
+}
+
+#card-confirm {
+    background-color: #FFE0E6;
+    color: #FF3F66;
+    margin: 4px;
+    padding: 3px;
+    border-radius: 5px;
+    font-weight: 500;
+    width: 25%;
+}
+
+#card-active {
+    background-color: #EFF7FF;
+    color: #027DFF;
+    margin: 4px;
+    padding: 3px;
+    border-radius: 5px;
+    font-weight: 500;
+    width: 25%;
+}
+
+#card-recover {
+    background-color: #E4F4E8;
+    color: #2AA747;
+    margin: 4px;
+    padding: 3px;
+    border-radius: 5px;
+    font-weight: 500;
+    width: 25%;
+}
+#card-decease {
+    background-color: #F6F6F7;
+    color: #767F85;
+    margin: 4px;
+    padding: 3px;
+    border-radius: 5px;
+    font-weight: 500;
+    width: 25%;
+}
+
+#gr-cn {
+    background-color: #FFE0E6;
+    margin: 4px 4px 4px 7px;
+    border-radius: 5px;
+    width: 47%;
+}
+
+#gr-ac {
+    background-color: #EFF7FF;
+    margin: 4px;
+    border-radius: 5px;
+    width: 47%;
+}
+
+#gr-rc {
+    background-color: #E4F4E8;
+    margin: 4px 4px 4px 7px;
+    border-radius: 5px;
+    width: 47%;
+}
+
+#gr-dc {
+    background-color: #F6F6F7;
+    margin: 4px;
+    border-radius: 5px;
+    width: 47%;
+}
+
+#map {
+    height: 200px;
+    width: auto;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#tabs {
+    background-color: #383C4A;
+}
+
+.tabs .indicator {
+    background-color: #2196f3;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+    background: rgba(21, 96, 243, 0.1);
+}
+
+canvas {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
