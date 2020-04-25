@@ -1,5 +1,8 @@
 body {
-    background-color: #262A32;
+    background-color: rgb(21, 23, 37);
+    font-family: 'Nunito', sans-serif;
+    width:100vw;
+    overflow-x: hidden;
 }
 
 .red-covid {
@@ -22,82 +25,98 @@ body {
     margin-top: 10px;
 }
 
+.title {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.add_spacing {
+    height: 40px;
+}
+
 #card-confirm {
-    background-color: #FFE0E6;
-    color: #FF3F66;
+    background-color: transparent;
+    color: #ff073a;
     margin: 4px;
-    padding: 3px;
+    padding: 8px;
     border-radius: 5px;
     font-weight: 500;
     width: 25%;
+    text-align: center;
 }
 
 #card-active {
-    background-color: #EFF7FF;
-    color: #027DFF;
+    background-color: transparent;
+    color: #007bff;
     margin: 4px;
-    padding: 3px;
+    padding: 8px;
     border-radius: 5px;
     font-weight: 500;
     width: 25%;
+    text-align: center;
 }
 
 #card-recover {
-    background-color: #E4F4E8;
-    color: #2AA747;
+    background-color: transparent;
+    color: #28a745;
     margin: 4px;
-    padding: 3px;
+    padding: 8px;
     border-radius: 5px;
     font-weight: 500;
     width: 25%;
+    text-align: center;
 }
 #card-decease {
-    background-color: #F6F6F7;
-    color: #767F85;
+    background-color: transparent;
+    color: #6c757d;
     margin: 4px;
-    padding: 3px;
+    padding: 8px;
     border-radius: 5px;
     font-weight: 500;
     width: 25%;
+    text-align: center;
 }
 
 #gr-cn {
-    background-color: #FFE0E6;
-    margin: 4px 4px 4px 7px;
+    background-color: transparent;
     border-radius: 5px;
-    width: 47%;
+    width: 25%;
+    padding-top: 8px;
 }
 
 #gr-ac {
-    background-color: #EFF7FF;
-    margin: 4px;
+    background-color: transparent;
     border-radius: 5px;
-    width: 47%;
+    width: 25%;
+    padding-top: 8px;
 }
 
 #gr-rc {
-    background-color: #E4F4E8;
-    margin: 4px 4px 4px 7px;
+    background-color: transparent;
     border-radius: 5px;
-    width: 47%;
+    width: 25%;
+    padding-top: 8px;
 }
 
 #gr-dc {
-    background-color: #F6F6F7;
-    margin: 4px;
+    background-color: transparent;
     border-radius: 5px;
-    width: 47%;
+    width: 25%;
+    padding-top: 8px;
 }
 
 #map {
-    height: 200px;
+    height: 400px;
     width: auto;
     margin: 10px;
     border-radius: 10px;
 }
 
 #tabs {
-    background-color: #383C4A;
+    background-color: rgba(56, 60, 74, 0);
+    width: 60%;
+    box-shadow: unset;
+    margin-bottom: 10px;
 }
 
 .tabs .indicator {
@@ -112,3 +131,323 @@ canvas {
     padding-top: 4px;
     padding-bottom: 4px;
 }
+
+#test-india {
+    width: 70%;
+    margin: 0 auto;
+}
+
+tbody tr:nth-child(odd){
+    background-color: rgba(217, 218, 219, 0.106);
+    padding-left: 10px;
+    border-radius: 3px;
+  }
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    
+        
+    #test-india {
+        width: 100%;
+    }
+
+    #card-confirm {
+        color: #ff073a;
+        margin: 4px;
+        padding: 8px;
+        border-radius: 5px;
+        font-weight: 500;
+        width: 25%;
+    }
+
+    #card-active {
+        color: #007bff;
+        margin: 4px;
+        padding: 8px;
+        border-radius: 5px;
+        font-weight: 500;
+        width: 25%;
+        min-height: unset;
+    }
+
+    #card-recover {
+        color: #28a745;
+        margin: 4px;
+        padding: 8px;
+        border-radius: 5px;
+        font-weight: 500;
+        width: 25%;
+    }
+    #card-decease {
+        color: #6c757d;
+        margin: 4px;
+        padding: 8px;
+        border-radius: 5px;
+        font-weight: 500;
+        width: 25%;
+    }
+
+    #gr-cn {
+        background-color: transparent;
+        margin: 4px 4px 4px 7px;
+        border-radius: 5px;
+        width: 47%;
+        padding-top: 8px;
+    }
+
+    #gr-ac {
+        background-color: transparent;
+        margin: 4px;
+        border-radius: 5px;
+        width: 47%;
+        padding-top: 8px;
+    }
+
+    #gr-rc {
+        background-color: transparent;
+        margin: 4px 4px 4px 7px;
+        border-radius: 5px;
+        width: 47%;
+        padding-top: 8px;
+    }
+
+    #gr-dc {
+        background-color: transparent;
+        margin: 4px;
+        border-radius: 5px;
+        width: 47%;
+        padding-top: 8px;
+    }
+
+    #map {
+        height: 200px;
+        width: auto;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    #tabs {
+        width: 100%;
+    }
+
+    .tabs .indicator {
+        background-color: #2196f3;
+    }
+
+    .tabs .tab a:focus, .tabs .tab a:focus.active {
+        background: rgba(21, 96, 243, 0.1);
+    }
+
+    canvas {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+    
+}
+
+
+
+/**-------------- Adding New Navbar ----------*/
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #1e1e24;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: #3b6acf;
+  }
+  
+  main {
+    margin-left: 5rem;
+    padding: 1rem;
+  }
+  
+  .navbar {
+    position: fixed;
+    background-color: rgb(27, 29, 48);
+    transition: width 600ms ease;
+    overflow: scroll;
+    z-index: 100;
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: -13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+  .nav-item {
+    width: 100%;
+    left: -10px!important;
+  }
+
+  
+  .nav-link {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    color: var(--text-primary);
+    text-decoration: none;
+    filter: grayscale(100%) opacity(0.7);
+    transition: var(--transition-speed);
+  }
+  
+  .nav-link:hover {
+    filter: grayscale(0%) opacity(1);
+    background: var(--bg-secondary);
+    color: var(--text-secondary);
+  }
+  
+  .link-text {
+    display: none;
+    margin-left: 1rem;
+  }
+  
+  .nav-link svg {
+    width: 2rem;
+    min-width: 2rem;
+    margin: 0 1.5rem;
+  }
+  
+  .fa-primary {
+    color: #437fee;
+  }
+  
+  .fa-secondary {
+    color: #437fee;
+  }
+  
+  .fa-primary,
+  .fa-secondary {
+    transition: var(--transition-speed);
+  }
+  
+  .logo {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: var(--text-secondary);
+    background: var(--bg-secondary);
+    font-size: 1.5rem;
+    letter-spacing: 0.3ch;
+    width: 100%;
+  }
+  
+  .logo svg {
+    transform: rotate(0deg);
+    transition: var(--transition-speed);
+  }
+  
+  .logo-text
+  {
+    display: inline;
+    position: absolute;
+    left: -999px;
+    transition: var(--transition-speed);
+  }
+  
+  .navbar:hover .logo svg {
+    transform: rotate(-180deg);
+  }
+  
+  /* Small screens */
+  @media only screen and (max-width: 600px) {
+    .navbar {
+      bottom: 0;
+      width: 100vw;
+      height: 5rem;
+      overflow: hidden;
+    }
+
+    .logo {
+      display: none;
+    }
+  
+    .navbar-nav {
+      flex-direction: row;
+    }
+  
+    .nav-link {
+      justify-content: center;
+    }
+  
+    main {
+      margin: 0;
+    }
+  }
+  
+  /* Large screens */
+  @media only screen and (min-width: 600px) {
+    .navbar {
+      top: 0;
+      width: 5rem;
+      height: 100vh;
+    }
+  
+    .navbar:hover {
+      width: 16rem;
+    }
+  
+    .navbar:hover .link-text {
+      display: inline;
+      padding-left: 20px;
+    }
+  
+    .navbar:hover .logo svg
+    {
+      margin-left: 11rem;
+    }
+  
+    .navbar:hover .logo-text
+    {
+      left: 0px;
+    }
+  }
+  
+  .dark {
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+  }
+  
+  .light {
+    --text-primary: #1f1f1f;
+    --text-secondary: #000000;
+    --bg-primary: #ffffff;
+    --bg-secondary: #e4e4e4;
+  }
+  
+  .solar {
+    --text-primary: #576e75;
+    --text-secondary: #35535c;
+    --bg-primary: #fdf6e3;
+    --bg-secondary: #f5e5b8;
+  }
+  
+  .theme-icon {
+    display: none;
+  }
+  
+  .dark #darkIcon {
+    display: block;
+  }
+  
+  .light #lightIcon {
+    display: block;
+  }
+  
+  .solar #solarIcon {
+    display: block;
+  }
+  

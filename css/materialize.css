@@ -7,6 +7,10 @@
   background-color: #e51c23 !important;
 }
 
+.dark_header {
+  background-color: transparent !important;
+}
+
 .materialize-red-text {
   color: #e51c23 !important;
 }
@@ -3010,7 +3014,7 @@ tr {
 }
 
 td, th {
-  padding: 15px 5px;
+  padding: 10px 5px;
   display: table-cell;
   text-align: left;
   vertical-align: middle;
@@ -4737,6 +4741,7 @@ small {
   transition: box-shadow .25s;
   transition: box-shadow .25s, -webkit-box-shadow .25s;
   padding: 24px;
+  min-height: 85px;
   margin: 0.5rem 0 1rem 0;
   border-radius: 2px;
   background-color: #fff;
@@ -8486,10 +8491,19 @@ input[type=range]::-ms-thumb {
   visibility: visible;
   -webkit-animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
           animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
-  -webkit-transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
-  transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
-  transition: opacity .3s, transform .3s, visibility 0s 1s;
-  transition: opacity .3s, transform .3s, visibility 0s 1s, -webkit-transform .3s;
+  -webkit-transition: opacity .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s 1s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
 }
 
 .tap-target {
@@ -8542,10 +8556,19 @@ input[type=range]::-ms-thumb {
 
 .tap-target-wave::after {
   visibility: hidden;
-  -webkit-transition: opacity .3s, visibility 0s, -webkit-transform .3s;
-  transition: opacity .3s, visibility 0s, -webkit-transform .3s;
-  transition: opacity .3s, transform .3s, visibility 0s;
-  transition: opacity .3s, transform .3s, visibility 0s, -webkit-transform .3s;
+  -webkit-transition: opacity .3s,
+ visibility 0s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ visibility 0s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s,
+ -webkit-transform .3s;
   z-index: -1;
 }
 
@@ -8743,7 +8766,7 @@ input[type=range]::-ms-thumb {
 }
 
 .datepicker-table th {
-  padding: 10px 5px;
+  padding: 5px 5px;
   text-align: center;
 }
 
