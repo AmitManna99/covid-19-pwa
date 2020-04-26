@@ -6,6 +6,7 @@ body {
 }
 
 .header {
+  text-align: center;
   font-size: 2rem;
   margin: 0 auto;
   padding: 5px;
@@ -16,16 +17,17 @@ body {
 @keyframes fadeIn {
   from {
     opacity: 0;
-    left: -20px;
+    top: 20px;
   }
   to {
     opacity: 1;
-    left: 0px
+    top: 0px
   }
 }
 
 .tabcontent {
-  transition: all 0.4s fadeIn;
+  position: relative;
+  animation: fadeIn 0.2s;
 }
 
 #page_2, #page_3, #page_4 {
@@ -185,6 +187,14 @@ tbody tr:nth-child(odd){
         
     #test-india {
         width: 100%;
+    }
+
+    #test-world {
+      width: 100%;
+    }
+
+    .tab {
+      width: 50%;
     }
 
     #card-confirm {
