@@ -36,6 +36,8 @@
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
 
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+
 	<title>COVID-19</title>
 </head>
 
@@ -264,12 +266,75 @@
         </div>
 
         <!-- World Wide -->
-        <div id="test-world" class="card-panel col s12 l12 red lighten-3">Worldwide</div>
+        <div id="test-world"">
+            <!-- Numbers -->
+            <div class="row valign-wrapper">
+                <div id="card-confirm" class="card-panel col s3 z-depth-0">
+                    <span class="flow-text title">Confirmed</span><br>
+                    <span class="flow-text" id="wconfirmed"></span>
+                </div>
+                <div id="card-active" class="card-panel col s3 z-depth-0">
+                    <span class="flow-text title">Active</span><br>
+                    <span class="flow-text" id="wactive"></span>
+                </div>
+                <div id="card-recover" class="card-panel col s3 z-depth-0">
+                    <span class="flow-text title">Recovered</span><br>
+                    <span class="flow-text" id="wrecovered"></span>
+                </div>
+                <div id="card-decease" class="card-panel col s3 z-depth-0">
+                    <span class="flow-text title">Deceased</span><br>
+                    <span class="flow-text" id="wdeceases"></span>
+                </div>
+            </div>
+
+            <!-- Graphs -->
+            <div class="row graphs">
+                <div class="col s2 card-panel z-depth-0" id="gr-cn">
+                    <canvas id="wgraph-confirm"></canvas>
+                </div>
+                <div class="col s2 card-panel z-depth-0" id="gr-ac">
+                    <canvas id="wgraph-active"></canvas>
+                </div>
+                <div class="col s2 card-panel z-depth-0" id="gr-rc">
+                    <canvas id="wgraph-recover"></canvas>
+                </div>
+                <div class="col s2 card-panel z-depth-0" id="gr-dc">
+                    <canvas id="wgraph-decease"></canvas>
+                </div>
+            </div>
+        </div>
     </div>
     </div>
 
+    <!-- Test Centers List -->
     <div class="tabcontent" id="page_2">
+      <div class="containter center">
+
+        <!-- Search Bar -->
+        <div class="row">
+          <div class="input-field col s10 l6 offset-s1 offset-l3">
+            <input placeholder="Search" id="search-labs" type="text" class="validate">
+          </div>
+        </div>
+                    
+        <!-- List of Centers -->
+        <div class="container">
+          <table>
+              <thead>
+                  <tr id="labs-header">
+                      <th class="blue-text">Place</th>
+                      <th class="blue-text">State</th>
+                      <th class="blue-text">Test Type</th>
+                      <th class="blue-text">Org</th>
+                  </tr>
+              </thead>
       
+              <tbody id="lab-list">
+                  <!-- Here the Lab List will appear-->
+              </tbody>
+          </table>
+        </div>
+      </div>
     </div>
 
     <div class="tabcontent" id="page_3">
@@ -288,6 +353,8 @@
     <script src="js/main.js"></script>
     <script src="js/ui.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/testCenters.js"></script>
+    </script>
 </body>
 
 </html>
