@@ -1,0 +1,2818 @@
+[
+  {
+    "Place": "Sri Venkateswara Institute of Medical Sciences, Tirupati",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 13.63785,
+    "Longitudes": 79.4049
+  },
+  {
+    "Place": "Sri Venkateswara Medical College, Tirupati",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 13.64278,
+    "Longitudes": 79.40878
+  },
+  {
+    "Place": "Rangaraya Medical College, Kakinada",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 16.97699,
+    "Longitudes": 82.23789
+  },
+  {
+    "Place": "Sidhartha Medical College, Vijaywada",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 16.51708,
+    "Longitudes": 80.67192
+  },
+  {
+    "Place": "Govt. Medical College, Ananthpur",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 8.51636,
+    "Longitudes": 76.9276
+  },
+  {
+    "Place": "Guntur Medical College, Guntur",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 16.32108,
+    "Longitudes": 80.43768
+  },
+  {
+    "Place": "Rajiv Gandhi Institute of Medical Sciences, Kadapa",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 14.43909,
+    "Longitudes": 78.86261
+  },
+  {
+    "Place": "Andhra Medical College, Visakhapatnam",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 17.70631,
+    "Longitudes": 83.30498
+  },
+  {
+    "Place": "Govt. Kurnool Medical College, Kurnool",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 15.82061,
+    "Longitudes": 78.04025
+  },
+  {
+    "Place": "Gauhati Medical College, Guwahati",
+    "State": "Assam",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 26.16056,
+    "Longitudes": 91.76754
+  },
+  {
+    "Place": "Regional Medical Research Center, Dibrugarh",
+    "State": "Assam",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 20.47556,
+    "Longitudes": 85.89114
+  },
+  {
+    "Place": "Jorhat Medical College, Jorhat",
+    "State": "Assam",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 26.74321,
+    "Longitudes": 94.19487
+  },
+  {
+    "Place": "Silchar Medical College, Silchar",
+    "State": "Assam",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 24.77579,
+    "Longitudes": 92.79397
+  },
+  {
+    "Place": "Fakkhruddin Ali Ahmed Medical College, Barpeta",
+    "State": "Assam",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 26.32371,
+    "Longitudes": 90.9868
+  },
+  {
+    "Place": "Tezpur Medical College, Tezpur",
+    "State": "Assam",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 26.6809,
+    "Longitudes": 92.65308
+  },
+  {
+    "Place": "Rajendra Memorial Research Institute of Medical Sciences, Patna",
+    "State": "Bihar",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 25.59939,
+    "Longitudes": 85.19839
+  },
+  {
+    "Place": "Indira Gandhi Institute Medical Sciences, Patna",
+    "State": "Bihar",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 25.60474,
+    "Longitudes": 85.08741
+  },
+  {
+    "Place": "Patna Medical College, Patna",
+    "State": "Bihar",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 25.61913,
+    "Longitudes": 85.1605
+  },
+  {
+    "Place": "Darbhanga Medical College, Darbhanga",
+    "State": "Bihar",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 26.13346,
+    "Longitudes": 85.9016
+  },
+  {
+    "Place": "SKMCH, Muzaffarpur",
+    "State": "Bihar",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 26.12399,
+    "Longitudes": 85.38669
+  },
+  {
+    "Place": "All India Institute of Medical Sciences, Patna",
+    "State": "Bihar",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 20.35399,
+    "Longitudes": 85.81373
+  },
+  {
+    "Place": "Post Graduate Institute of Medical Education and Research, Chandigarh",
+    "State": "Chandigarh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 30.762,
+    "Longitudes": 76.7748
+  },
+  {
+    "Place": "Govt. Medical College, Chandigarh",
+    "State": "Chandigarh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 30.7019,
+    "Longitudes": 76.76925
+  },
+  {
+    "Place": "Institute of Microbial Technology, Chandigarh",
+    "State": "Chandigarh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 30.74637,
+    "Longitudes": 76.73428
+  },
+  {
+    "Place": "All India Institute of Medical Sciences, Raipur",
+    "State": "Chhattisgarh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 21.24277,
+    "Longitudes": 81.83659
+  },
+  {
+    "Place": "Late Baliram Kashyap M Govt. Medical College, Jagdalpur",
+    "State": "Chhattisgarh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 8.51636,
+    "Longitudes": 76.9276
+  },
+  {
+    "Place": "JNM Medical College, Raipur",
+    "State": "Chhattisgarh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 21.25189,
+    "Longitudes": 81.63997
+  },
+  {
+    "Place": "All India Institute Medical Sciences, Delhi",
+    "State": "Delhi",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 28.71538,
+    "Longitudes": 77.69342
+  },
+  {
+    "Place": "Lady Hardinge Medical College, Delhi",
+    "State": "Delhi",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 28.6184,
+    "Longitudes": 77.10489
+  },
+  {
+    "Place": "National Centre for Disease Control, Delhi",
+    "State": "Delhi",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 28.67969,
+    "Longitudes": 77.22383
+  },
+  {
+    "Place": "Ram Manohar Lohia Hospital, Delhi",
+    "State": "Delhi",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 28.62429,
+    "Longitudes": 77.19877
+  },
+  {
+    "Place": "Institute of Liver and Biliary Sciences, Delhi",
+    "State": "Delhi",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 28.50594,
+    "Longitudes": 77.16529
+  },
+  {
+    "Place": "Army Hospital Research and Referral, Delhi",
+    "State": "Delhi",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 28.5836,
+    "Longitudes": 77.16019
+  },
+  {
+    "Place": "Maulana Azad Medical College, Delhi",
+    "State": "Delhi",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 28.63596,
+    "Longitudes": 77.24017
+  },
+  {
+    "Place": "Vardhman Mahavir Medical College and Safdarjung Hospital, Delhi",
+    "State": "Delhi",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 28.5675,
+    "Longitudes": 77.20242
+  },
+  {
+    "Place": "BJ Medical College, Ahmedabad",
+    "State": "Gujarat",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 23.08231,
+    "Longitudes": 72.52666
+  },
+  {
+    "Place": "MP Shah Govt Medical College, Jamnagar",
+    "State": "Gujarat",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 22.47701,
+    "Longitudes": 70.06495
+  },
+  {
+    "Place": "Govt. Medical College, Surat",
+    "State": "Gujarat",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 21.17794,
+    "Longitudes": 72.82043
+  },
+  {
+    "Place": "Govt. Medical College, Bhavnagar",
+    "State": "Gujarat",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 21.76615,
+    "Longitudes": 72.1421
+  },
+  {
+    "Place": "Govt. Medical College, Vadodara",
+    "State": "Gujarat",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 22.31277,
+    "Longitudes": 73.14778
+  },
+  {
+    "Place": "Govt. Medical College, Rajkot",
+    "State": "Gujarat",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 22.30559,
+    "Longitudes": 70.79928
+  },
+  {
+    "Place": "NHL Medical College, Ahmedabad",
+    "State": "Gujarat",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 23.05291,
+    "Longitudes": 72.60183
+  },
+  {
+    "Place": "GMERS, Ahmedabad",
+    "State": "Gujarat",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 23.02776,
+    "Longitudes": 72.60027
+  },
+  {
+    "Place": "National Institute of Occupational Health, Ahmedabad",
+    "State": "Gujarat",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 23.05441,
+    "Longitudes": 72.61112
+  },
+  {
+    "Place": "Surat Municipal Institute of Medical Education and Research (SMIMER), Surat",
+    "State": "Gujarat",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 21.19637,
+    "Longitudes": 72.8453
+  },
+  {
+    "Place": "Goa Medical College, Goa",
+    "State": "Goa",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 8.51636,
+    "Longitudes": 76.9276
+  },
+  {
+    "Place": "Pt. B.D. Sharma Post Graduate Inst. Of Med. Sciences, Rohtak, Haryana",
+    "State": "Haryana",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 28.88017,
+    "Longitudes": 76.60536
+  },
+  {
+    "Place": "BPS Govt. Medical College, Sonipat",
+    "State": "Haryana",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 29.14842,
+    "Longitudes": 76.80904
+  },
+  {
+    "Place": "ESIC Hospital, Faridabad",
+    "State": "Haryana",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 28.355,
+    "Longitudes": 77.32646
+  },
+  {
+    "Place": "Kalpana Chawla Govt. Medical College, Karnal",
+    "State": "Haryana",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 29.70202,
+    "Longitudes": 76.98713
+  },
+  {
+    "Place": "ICAR-National Research Centre on Equines, Hisar",
+    "State": "Haryana",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 29.1653,
+    "Longitudes": 75.6799
+  },
+  {
+    "Place": "Translational Health Science and Technology Institute, Faridabad",
+    "State": "Haryana",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Indira Gandhi Medical College, Shimla",
+    "State": "Himachal Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 31.10727,
+    "Longitudes": 77.18353
+  },
+  {
+    "Place": "Dr. Rajendra Prasad Govt. Medical College, Tanda",
+    "State": "Himachal Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 19.21535,
+    "Longitudes": 73.09712
+  },
+  {
+    "Place": "Central Research Institute, Kasauli",
+    "State": "Himachal Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 30.89975,
+    "Longitudes": 76.96459
+  },
+  {
+    "Place": "CSIR Institute of Himalayan Bioresource Technology, Palampur",
+    "State": "Himachal Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 32.10585,
+    "Longitudes": 76.55702
+  },
+  {
+    "Place": "Govt. Medical College, Jammu",
+    "State": "Jammu and Kashmir",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 8.51636,
+    "Longitudes": 76.9276
+  },
+  {
+    "Place": "Command Hospital (NC) Udhampur",
+    "State": "Jammu and Kashmir",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Sher-i-Kashmir Institute of Medical Sciences, Srinagar",
+    "State": "Jammu and Kashmir",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 28.56784,
+    "Longitudes": 77.2081
+  },
+  {
+    "Place": "Govt. Medical College, Srinagar",
+    "State": "Jammu and Kashmir",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 21.13126,
+    "Longitudes": 79.09761
+  },
+  {
+    "Place": "MGM Medical College and Hospital, Jamshedpur",
+    "State": "Jharkhand",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 22.84352,
+    "Longitudes": 86.23234
+  },
+  {
+    "Place": "Rajendra Institute of Medical Sciences, Ranchi",
+    "State": "Jharkhand",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 23.36576,
+    "Longitudes": 85.32659
+  },
+  {
+    "Place": "Patliputra Medical College and Hospital, Dhanbad",
+    "State": "Jharkhand",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 23.79782,
+    "Longitudes": 86.43643
+  },
+  {
+    "Place": "Itki Aarogyashala, Ranchi",
+    "State": "Jharkhand",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 23.28681,
+    "Longitudes": 84.97919
+  },
+  {
+    "Place": "Hassan Inst. Of Med. Sciences, Hassan",
+    "State": "Karnataka",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 13.00614,
+    "Longitudes": 76.10226
+  },
+  {
+    "Place": "Mysore Medical College and Research Institute, Mysore",
+    "State": "Karnataka",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 12.31477,
+    "Longitudes": 76.64861
+  },
+  {
+    "Place": "Shivamogga Institute of Medical Sciences, Shivamogga",
+    "State": "Karnataka",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 13.93182,
+    "Longitudes": 75.56606
+  },
+  {
+    "Place": "Command Hospital (Air Force), Bengaluru",
+    "State": "Karnataka",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 12.92065,
+    "Longitudes": 77.51424
+  },
+  {
+    "Place": "Bangalore Medical College and Research Institute, Bengaluru",
+    "State": "Karnataka",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 12.9586,
+    "Longitudes": 77.57417
+  },
+  {
+    "Place": "National Institute of Virology, Bangalore Field Unit, Bengaluru",
+    "State": "Karnataka",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 12.96272,
+    "Longitudes": 77.57452
+  },
+  {
+    "Place": "Deptt. of Biochemistry, Indian Institute of Science, Bengaluru",
+    "State": "Karnataka",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 13.01421,
+    "Longitudes": 77.56609
+  },
+  {
+    "Place": "Gulbarga Institute of Medical Sciences, Gulbarga",
+    "State": "Karnataka",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 17.33274,
+    "Longitudes": 76.84035
+  },
+  {
+    "Place": "Vijaynagar Institute of Medical Sciences, Bellary",
+    "State": "Karnataka",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 15.15445,
+    "Longitudes": 76.89319
+  },
+  {
+    "Place": "National Institute of Mental Health and Neuro-Sciences, Bangalore",
+    "State": "Karnataka",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 12.93909,
+    "Longitudes": 77.59445
+  },
+  {
+    "Place": "Wenlock District Hospital, Mangalore",
+    "State": "Karnataka",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 12.86768,
+    "Longitudes": 74.84314
+  },
+  {
+    "Place": "Karnataka Institute of Medical Sciences, Hubli",
+    "State": "Karnataka",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 15.36096,
+    "Longitudes": 75.12678
+  },
+  {
+    "Place": "National Institute of Traditional Medicine, Belagavi",
+    "State": "Karnataka",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 15.88679,
+    "Longitudes": 74.52361
+  },
+  {
+    "Place": "Dharwad Institute of Mental Health and Neurosciences, Dharwad",
+    "State": "Karnataka",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 15.46447,
+    "Longitudes": 74.99851
+  },
+  {
+    "Place": "National Institute of Virology, Field Unit, Allapuzzha",
+    "State": "Kerala",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Govt. Medical College, Thiruvanathapuram",
+    "State": "Kerala",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 8.51636,
+    "Longitudes": 76.9276
+  },
+  {
+    "Place": "Govt. Medical College, Kozhikode",
+    "State": "Kerala",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 11.27457,
+    "Longitudes": 75.83623
+  },
+  {
+    "Place": "Govt. Medical College, Thrissur",
+    "State": "Kerala",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 10.61817,
+    "Longitudes": 76.20726
+  },
+  {
+    "Place": "Rajiv Gandhi Center for Biotechnology, Thiruvanathapuram",
+    "State": "Kerala",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 8.48416,
+    "Longitudes": 76.91528
+  },
+  {
+    "Place": "Sree Chitra Tirunal Institute of Medical Sciences, Thiruvanathapuram",
+    "State": "Kerala",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 8.52189,
+    "Longitudes": 76.92597
+  },
+  {
+    "Place": "State Public Health Laboratory, Trivandrum",
+    "State": "Kerala",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Inter University, Kottayam",
+    "State": "Kerala",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 9.65926,
+    "Longitudes": 76.53219
+  },
+  {
+    "Place": "Malabar Cancer Center, Thalassery",
+    "State": "Kerala",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 11.74938,
+    "Longitudes": 75.52417
+  },
+  {
+    "Place": "Central University of Kerala, Periye, Kasaragod",
+    "State": "Kerala",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 12.3929,
+    "Longitudes": 75.09868
+  },
+  {
+    "Place": "Govt. Medical College, Ernakulum",
+    "State": "Kerala",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 10.05351,
+    "Longitudes": 76.35567
+  },
+  {
+    "Place": "Govt. Medical College, Manjeri",
+    "State": "Kerala",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 11.11776,
+    "Longitudes": 76.12154
+  },
+  {
+    "Place": "Govt. Medical College, Kottayam",
+    "State": "Kerala",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 9.6334,
+    "Longitudes": 76.52328
+  },
+  {
+    "Place": "Govt. Medical College, Kannur",
+    "State": "Kerala",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 12.08621,
+    "Longitudes": 75.31284
+  },
+  {
+    "Place": "National Institute of Virology, Pune",
+    "State": "Maharashtra",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 18.54295,
+    "Longitudes": 73.78904
+  },
+  {
+    "Place": "Seth GS Medical College and KEM Hospital, Mumbai",
+    "State": "Maharashtra",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 26.28615,
+    "Longitudes": 73.02114
+  },
+  {
+    "Place": "Kasturba Hospital for Infectious Diseases, Mumbai",
+    "State": "Maharashtra",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 18.98441,
+    "Longitudes": 72.83044
+  },
+  {
+    "Place": "National Institute of Virology Field Unit, Mumbai",
+    "State": "Maharashtra",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 19.14556,
+    "Longitudes": 72.93553
+  },
+  {
+    "Place": "Armed Forces Medical College, Pune",
+    "State": "Maharashtra",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 18.50412,
+    "Longitudes": 73.89024
+  },
+  {
+    "Place": "BJ Medical College, Pune",
+    "State": "Maharashtra",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 18.52633,
+    "Longitudes": 73.87225
+  },
+  {
+    "Place": "Indira Gandhi Govt. Medical College, Nagpur",
+    "State": "Maharashtra",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 21.15748,
+    "Longitudes": 79.09541
+  },
+  {
+    "Place": "All India Institute of Medical Sciences, Nagpur",
+    "State": "Maharashtra",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 21.13187,
+    "Longitudes": 79.06833
+  },
+  {
+    "Place": "Govt. Medical College, Nagpur",
+    "State": "Maharashtra",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 21.13126,
+    "Longitudes": 79.09761
+  },
+  {
+    "Place": "Nagpur Veterinary College, MAFSU, Nagpur",
+    "State": "Maharashtra",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 21.13778,
+    "Longitudes": 79.06859
+  },
+  {
+    "Place": "Intermediate Reference Laboratory, Nagpur",
+    "State": "Maharashtra",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Grant Medical College and Sir JJ Hospital, Mumbai",
+    "State": "Maharashtra",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 22.30397,
+    "Longitudes": 70.80205
+  },
+  {
+    "Place": "Govt. Medical College, Aurangabad",
+    "State": "Maharashtra",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 19.88955,
+    "Longitudes": 75.31998
+  },
+  {
+    "Place": "V. M. Government Medical College, Solapur",
+    "State": "Maharashtra",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 21.12666,
+    "Longitudes": 79.09802
+  },
+  {
+    "Place": "Haffkine Institute, Mumbai",
+    "State": "Maharashtra",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 19.00227,
+    "Longitudes": 72.84341
+  },
+  {
+    "Place": "Shree Bhausaheb Hire Govt. Medical College, Dhule",
+    "State": "Maharashtra",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 20.90275,
+    "Longitudes": 74.77145
+  },
+  {
+    "Place": "Government Medical College, Miraj",
+    "State": "Maharashtra",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 16.83826,
+    "Longitudes": 74.64778
+  },
+  {
+    "Place": "Govt. Medical College, Akola",
+    "State": "Maharashtra",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 8.51636,
+    "Longitudes": 76.9276
+  },
+  {
+    "Place": "National Institute for Research on Reproductive Health, Mumbai",
+    "State": "Maharashtra",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 19.00258,
+    "Longitudes": 72.84096
+  },
+  {
+    "Place": "Rajiv Gandhi Medical College and CSM Hospital, Kalwa, Thane, Mumbai",
+    "State": "Maharashtra",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 19.19168,
+    "Longitudes": 72.98737
+  },
+  {
+    "Place": "National AIDS Research Institute, Pune",
+    "State": "Maharashtra",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 18.62439,
+    "Longitudes": 73.83744
+  },
+  {
+    "Place": "Intermediate Reference Laboratory, Nagpur",
+    "State": "Maharashtra",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Swami Ramanand Teerth Marathwada University, Nanded",
+    "State": "Maharashtra",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 19.10483,
+    "Longitudes": 77.28209
+  },
+  {
+    "Place": "Tata Memorial Centre ACTREC, Mumbai",
+    "State": "Maharashtra",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 19.00463,
+    "Longitudes": 72.84336
+  },
+  {
+    "Place": "National Centre for Cell Sciences, Pune",
+    "State": "Maharashtra",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 18.54723,
+    "Longitudes": 73.832
+  },
+  {
+    "Place": "National Environmental Engineering Research Institute, Nagpur",
+    "State": "Maharashtra",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 21.12047,
+    "Longitudes": 79.06962
+  },
+  {
+    "Place": "All India Institute of Medical Sciences, Bhopal",
+    "State": "Madhya Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 23.24343,
+    "Longitudes": 77.43739
+  },
+  {
+    "Place": "National Institute for Research on Tribal Health, Jabalpur",
+    "State": "Madhya Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Mahatma Gandhi Memorial Medical College, Indore",
+    "State": "Madhya Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 22.71369,
+    "Longitudes": 75.88352
+  },
+  {
+    "Place": "Gandhi Medical College, Bhopal",
+    "State": "Madhya Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 23.26023,
+    "Longitudes": 77.39105
+  },
+  {
+    "Place": "Bhopal Memorial Hospital and research Centre, Bhopal",
+    "State": "Madhya Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 23.30003,
+    "Longitudes": 77.41781
+  },
+  {
+    "Place": "Gajra Raja Medical College, Gwalior",
+    "State": "Madhya Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 26.19249,
+    "Longitudes": 78.16462
+  },
+  {
+    "Place": "Bundelkhand Medical College, Sagar",
+    "State": "Madhya Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 23.82031,
+    "Longitudes": 78.75408
+  },
+  {
+    "Place": "SS Medical College, Rewa",
+    "State": "Madhya Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 8.51636,
+    "Longitudes": 76.9276
+  },
+  {
+    "Place": "Defence Research and Development Organization, Gwalior",
+    "State": "Madhya Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "ICAR-NIHSAD, Bhopal",
+    "State": "Madhya Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 23.26466,
+    "Longitudes": 77.40518
+  },
+  {
+    "Place": "Jawaharlal Nehru Institute of Med. Sciences, Imphal-East, Manipur",
+    "State": "Manipur",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 24.78601,
+    "Longitudes": 93.92237
+  },
+  {
+    "Place": "Regional Institute of Medical Sciences, Imphal",
+    "State": "Manipur",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 24.81584,
+    "Longitudes": 93.92279
+  },
+  {
+    "Place": "North Eastern Indira Gandhi Regional Institute of Health and Medical Sciences, Shillong, Meghalaya",
+    "State": "Meghalaya",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 25.59209,
+    "Longitudes": 91.94198
+  },
+  {
+    "Place": "Zoram Medical College, Mizoram",
+    "State": "Mizoram",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 8.51636,
+    "Longitudes": 76.9276
+  },
+  {
+    "Place": "Regional Medical Research Centre, Bhubaneshwar (Highthroughput Laboratory)",
+    "State": "Odisha",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 20.31607,
+    "Longitudes": 85.8203
+  },
+  {
+    "Place": "All India Institute of Medical Sciences, Bhubaneshwar",
+    "State": "Odisha",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "SCB Medical College and Hospital, Cuttack",
+    "State": "Odisha",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 22.57459,
+    "Longitudes": 88.36297
+  },
+  {
+    "Place": "MKCG Medical College, Berhampur",
+    "State": "Odisha",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 24.08912,
+    "Longitudes": 88.26231
+  },
+  {
+    "Place": "Ispat General Hospital, Rourkela",
+    "State": "Odisha",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 22.26482,
+    "Longitudes": 84.8644
+  },
+  {
+    "Place": "Veer Surendra Sai institute of Medical Science and Research, Sambalpur",
+    "State": "Odisha",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Institute of Life Sciences, Bhubaneshwar",
+    "State": "Odisha",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 20.31457,
+    "Longitudes": 85.81737
+  },
+  {
+    "Place": "Jawaharlal Institute of Postgraduate Medical Education and Research, Puducherry",
+    "State": "Puducherry",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 11.95397,
+    "Longitudes": 79.79689
+  },
+  {
+    "Place": "Indira Gandhi Medical College, Puducherry",
+    "State": "Puducherry",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 11.95093,
+    "Longitudes": 79.82996
+  },
+  {
+    "Place": "Govt. Medical College, Amritsar",
+    "State": "Punjab",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 31.64892,
+    "Longitudes": 74.88587
+  },
+  {
+    "Place": "Govt. Medical College, Patiala",
+    "State": "Punjab",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 8.51636,
+    "Longitudes": 76.9276
+  },
+  {
+    "Place": "Guru Gobind Singh Medical University, Faridkot",
+    "State": "Punjab",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 30.68168,
+    "Longitudes": 74.73665
+  },
+  {
+    "Place": "Sawai Man Singh Medical College, Jaipur",
+    "State": "Rajasthan",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 26.88772,
+    "Longitudes": 75.81348
+  },
+  {
+    "Place": "Dr. Sampurnan and Medical College, Jodhpur",
+    "State": "Rajasthan",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 26.26946,
+    "Longitudes": 73.00731
+  },
+  {
+    "Place": "Jhalawar Medical College, Jhalawar",
+    "State": "Rajasthan",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 24.58889,
+    "Longitudes": 76.16103
+  },
+  {
+    "Place": "RNT Medical College, Udaipur",
+    "State": "Rajasthan",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 24.58819,
+    "Longitudes": 73.69521
+  },
+  {
+    "Place": "SP Medical College, Bikaner",
+    "State": "Rajasthan",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 28.02839,
+    "Longitudes": 73.29799
+  },
+  {
+    "Place": "All India Institute of Medical Sciences, Jodhpur",
+    "State": "Rajasthan",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 28.71538,
+    "Longitudes": 77.69342
+  },
+  {
+    "Place": "JLN Medical College, Ajmer",
+    "State": "Rajasthan",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 26.46929,
+    "Longitudes": 74.63457
+  },
+  {
+    "Place": "Govt. Medical College, Kota",
+    "State": "Rajasthan",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 25.12361,
+    "Longitudes": 75.82997
+  },
+  {
+    "Place": "National Institute for Implementation Research on NonCommunicable Diseases (Formerly DMRC), Jodhpur",
+    "State": "Rajasthan",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "King Institute of Preventive Medicine and Research, Chennai",
+    "State": "Tamil Nadu",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 13.01468,
+    "Longitudes": 80.21466
+  },
+  {
+    "Place": "Madras Medical College, Chennai",
+    "State": "Tamil Nadu",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 13.08026,
+    "Longitudes": 80.27256
+  },
+  {
+    "Place": "Stanley Medical College, Chennai",
+    "State": "Tamil Nadu",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 13.10619,
+    "Longitudes": 80.28636
+  },
+  {
+    "Place": "Govt. Kilpauk Medical College, Chennai",
+    "State": "Tamil Nadu",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 13.07842,
+    "Longitudes": 80.24272
+  },
+  {
+    "Place": "National Institute for Research in Tuberculosis, Chennai",
+    "State": "Tamil Nadu",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 13.07393,
+    "Longitudes": 80.24939
+  },
+  {
+    "Place": "State Public Health Laboratory, Chennai",
+    "State": "Tamil Nadu",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 13.06877,
+    "Longitudes": 80.2681
+  },
+  {
+    "Place": "National Institute of Epidemiology, Chennai",
+    "State": "Tamil Nadu",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 13.10097,
+    "Longitudes": 80.13956
+  },
+  {
+    "Place": "Dr. ALM PG Institute of Basic Medical Sciences, Chennai",
+    "State": "Tamil Nadu",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 12.98019,
+    "Longitudes": 80.24468
+  },
+  {
+    "Place": "Govt. Theni Medical College, Theni",
+    "State": "Tamil Nadu",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 10.00476,
+    "Longitudes": 77.55423
+  },
+  {
+    "Place": "Tirunelveli Medical College, Tirunelveli",
+    "State": "Tamil Nadu",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 8.71578,
+    "Longitudes": 77.7548
+  },
+  {
+    "Place": "Govt. Medical College, Thiruvarur",
+    "State": "Tamil Nadu",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 8.51636,
+    "Longitudes": 76.9276
+  },
+  {
+    "Place": "Kumar Mangalam Govt. Medical College, Salem",
+    "State": "Tamil Nadu",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 11.65625,
+    "Longitudes": 78.15529
+  },
+  {
+    "Place": "Coimbatore Medical College, Coimbatore",
+    "State": "Tamil Nadu",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 11.02802,
+    "Longitudes": 77.02432
+  },
+  {
+    "Place": "Govt. Medical College and ESIC Hospital, Coimbatore",
+    "State": "Tamil Nadu",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Govt. Medical College, Villupuram",
+    "State": "Tamil Nadu",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 8.51636,
+    "Longitudes": 76.9276
+  },
+  {
+    "Place": "Madurai Medical College, Madurai",
+    "State": "Tamil Nadu",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 9.92871,
+    "Longitudes": 78.13763
+  },
+  {
+    "Place": "K A P Viswanatham Govt. Medical College, Trichy",
+    "State": "Tamil Nadu",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 10.79675,
+    "Longitudes": 78.67653
+  },
+  {
+    "Place": "Perundurai Medical College, Perundurai",
+    "State": "Tamil Nadu",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 11.28279,
+    "Longitudes": 77.56709
+  },
+  {
+    "Place": "Govt. Dharmapuri Medical College, Dharmapuri",
+    "State": "Tamil Nadu",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 12.12011,
+    "Longitudes": 78.15578
+  },
+  {
+    "Place": "Govt. Medical College, Vellore",
+    "State": "Tamil Nadu",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 12.87927,
+    "Longitudes": 79.13022
+  },
+  {
+    "Place": "Thanjavur Medical College, Thanjavur",
+    "State": "Tamil Nadu",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 10.75853,
+    "Longitudes": 79.10643
+  },
+  {
+    "Place": "Kanyakumari Govt. Medical College, Nagercoil",
+    "State": "Tamil Nadu",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 8.17412,
+    "Longitudes": 77.39958
+  },
+  {
+    "Place": "Govt. Thoothukudi Medical College, Thoothukudi",
+    "State": "Tamil Nadu",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 8.80048,
+    "Longitudes": 78.13592
+  },
+  {
+    "Place": "Institute of Vector Control and Zoonoses, Hosur",
+    "State": "Tamil Nadu",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 12.75441,
+    "Longitudes": 77.81757
+  },
+  {
+    "Place": "Pasteur Institute of India, Coonoor",
+    "State": "Tamil Nadu",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 11.35493,
+    "Longitudes": 76.80249
+  },
+  {
+    "Place": "Rajah Muthiah Medical College, Chidambaram",
+    "State": "Tamil Nadu",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 11.39526,
+    "Longitudes": 79.71813
+  },
+  {
+    "Place": "Government Medical College, Karur",
+    "State": "Tamil Nadu",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 21.12666,
+    "Longitudes": 79.09802
+  },
+  {
+    "Place": "Govt. Tiruvannamalai Medical College and Hospital, Tiruvannamalai",
+    "State": "Tamil Nadu",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 12.22565,
+    "Longitudes": 79.06461
+  },
+  {
+    "Place": "Gandhi Medical College, Secunderabad",
+    "State": "Telangana",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 17.42399,
+    "Longitudes": 78.50367
+  },
+  {
+    "Place": "Osmania Medical College, Hyderabad",
+    "State": "Telangana",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 17.38263,
+    "Longitudes": 78.48254
+  },
+  {
+    "Place": "Sir Ronald Ross of Tropical and Communicable Diseases, Hyderabad.",
+    "State": "Telangana",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Nizam’s Institute of Medical Sciences, Hyderabad",
+    "State": "Telangana",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 17.42126,
+    "Longitudes": 78.44891
+  },
+  {
+    "Place": "Institute of Preventive Medicine, Hyderabad",
+    "State": "Telangana",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 17.39396,
+    "Longitudes": 78.4899
+  },
+  {
+    "Place": "ESIC Medical College, Hyderabad",
+    "State": "Telangana",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 17.44751,
+    "Longitudes": 78.43845
+  },
+  {
+    "Place": "Centre for Cellular and Molecular Biology, Hyderabad",
+    "State": "Telangana",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 17.42101,
+    "Longitudes": 78.54003
+  },
+  {
+    "Place": "Centre for DNA Fingerprinting and Diagnostics, Hyderabad",
+    "State": "Telangana",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 17.38406,
+    "Longitudes": 78.47543
+  },
+  {
+    "Place": "Government Medical College, Agartala",
+    "State": "Tripura",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 23.86073,
+    "Longitudes": 91.2926
+  },
+  {
+    "Place": "King George Medical University, Lucknow",
+    "State": "Uttar Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 26.86453,
+    "Longitudes": 80.91471
+  },
+  {
+    "Place": "Institute of Medical Sciences, Banaras Hindu University, Varanasi",
+    "State": "Uttar Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 25.27572,
+    "Longitudes": 82.99895
+  },
+  {
+    "Place": "Jawaharlal Nehru Medical College, Aligarh",
+    "State": "Uttar Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 27.91935,
+    "Longitudes": 78.08619
+  },
+  {
+    "Place": "Command Hospital, Lucknow",
+    "State": "Uttar Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 26.81853,
+    "Longitudes": 80.93927
+  },
+  {
+    "Place": "Lala Lajpat Rai Memorial Medical College, Meerut",
+    "State": "Uttar Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 28.95846,
+    "Longitudes": 77.75102
+  },
+  {
+    "Place": "Sanjay Gandhi Post Graduate Institute, Lucknow",
+    "State": "Uttar Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 26.74702,
+    "Longitudes": 80.95048
+  },
+  {
+    "Place": "MLN Medical College, Allahabad",
+    "State": "Uttar Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 25.45272,
+    "Longitudes": 81.85548
+  },
+  {
+    "Place": "Uttar Pradesh University of Medical Sciences (Formerly Uttar Pradesh RIMS), Saifai",
+    "State": "Uttar Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 26.96091,
+    "Longitudes": 78.96296
+  },
+  {
+    "Place": "MLB Medical College, Jhansi",
+    "State": "Uttar Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 25.46056,
+    "Longitudes": 78.61422
+  },
+  {
+    "Place": "Regional Medical Research Centre, Gorakhpur",
+    "State": "Uttar Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 26.72719,
+    "Longitudes": 83.37725
+  },
+  {
+    "Place": "SN Medical College, Agra",
+    "State": "Uttar Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 27.18752,
+    "Longitudes": 78.00804
+  },
+  {
+    "Place": "RML Hospital, Lucknow",
+    "State": "Uttar Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 26.8686,
+    "Longitudes": 81.00099
+  },
+  {
+    "Place": "Govt. Institute of Medical Sciences, Noida",
+    "State": "Uttar Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "GSVM Medical College, Kanpur",
+    "State": "Uttar Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 26.4848,
+    "Longitudes": 80.30211
+  },
+  {
+    "Place": "National Institute of Biologicals, Noida (High-throughput Laboratory)",
+    "State": "Uttar Pradesh",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 28.628,
+    "Longitudes": 77.35849
+  },
+  {
+    "Place": "Govt. Medical College, Haldwani",
+    "State": "Uttarakhand",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 8.51636,
+    "Longitudes": 76.9276
+  },
+  {
+    "Place": "All India Institute of Medical Sciences, Rishikesh",
+    "State": "Uttarakhand",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 30.07625,
+    "Longitudes": 78.28635
+  },
+  {
+    "Place": "Doon Medical College, Dehradun",
+    "State": "Uttarakhand",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 30.3078,
+    "Longitudes": 78.02146
+  },
+  {
+    "Place": "National Institute of Cholera and Enteric Diseases, Kolkata",
+    "State": "West Bengal",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 22.56339,
+    "Longitudes": 88.37417
+  },
+  {
+    "Place": "Institute of Post Graduate Medical Education and Research, Kolkata",
+    "State": "West Bengal",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 22.57841,
+    "Longitudes": 88.37459
+  },
+  {
+    "Place": "Midnapore Medical College, Midnapore",
+    "State": "West Bengal",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 22.42163,
+    "Longitudes": 87.32271
+  },
+  {
+    "Place": "North Bengal Medical College, Darjeeling",
+    "State": "West Bengal",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 26.69099,
+    "Longitudes": 88.3846
+  },
+  {
+    "Place": "School of Tropical Medicine, Kolkata",
+    "State": "West Bengal",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 22.57496,
+    "Longitudes": 88.35966
+  },
+  {
+    "Place": "Malda Medical College and Hospital, Malda",
+    "State": "West Bengal",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 24.9937,
+    "Longitudes": 88.13781
+  },
+  {
+    "Place": "Command Hospital, Kolkata",
+    "State": "West Bengal",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 22.52879,
+    "Longitudes": 88.32711
+  },
+  {
+    "Place": "Chittaranjan National Cancer Institute, Kolkata",
+    "State": "West Bengal",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 22.52541,
+    "Longitudes": 88.34648
+  },
+  {
+    "Place": "R.G. Kar Medical College and Hospital, Kolkata",
+    "State": "West Bengal",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 22.60449,
+    "Longitudes": 88.37816
+  },
+  {
+    "Place": "Murshidabad Medical College, Behrampore, Murshidabad",
+    "State": "West Bengal",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 24.08912,
+    "Longitudes": 88.26231
+  },
+  {
+    "Place": "Regional Medical Research Centre, Port Blair",
+    "State": "Andaman and Nicobar Islands",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 11.63496,
+    "Longitudes": 92.71469
+  },
+  {
+    "Place": "Shri Vinoba Bhave Civil Hospital, Silvassa",
+    "State": "Dadra and Nagar Haveli",
+    "Type": "Public",
+    "testType": "RT-PCR",
+    "Latitudes": 20.27045,
+    "Longitudes": 73.00736
+  },
+  {
+    "Place": "North District Hospital, Mapusa",
+    "State": "Goa",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": -35.38528,
+    "Longitudes": 174.06907
+  },
+  {
+    "Place": "Subdistrict Hospital, Ponda",
+    "State": "Goa",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": 13.06687,
+    "Longitudes": 74.99539
+  },
+  {
+    "Place": "Damien TB Research Centre, Nellore",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": 23.30072,
+    "Longitudes": 77.36632
+  },
+  {
+    "Place": "SVRR Govt. General Hospital, Tirupati",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": 9.97148,
+    "Longitudes": 76.28099
+  },
+  {
+    "Place": "Community Health Centre, Gadi Veedhi Saluru, Vizianagaram",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": 18.57397,
+    "Longitudes": 83.35812
+  },
+  {
+    "Place": "Community Health Centre, Bhimavaram, West Godavari District",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": 16.5475,
+    "Longitudes": 81.51518
+  },
+  {
+    "Place": "Community Health Centre, Patapatnam",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Community Health Center, Nandyal, Banaganapalli, Kurnool",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": 15.77095,
+    "Longitudes": 77.47907
+  },
+  {
+    "Place": "GSL Medical College and General Hospital, Rajahnagram, East Godavari District",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": 17.06699,
+    "Longitudes": 81.88263
+  },
+  {
+    "Place": "District Hospital, Madnapalle, Chittoor District",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": 13.55987,
+    "Longitudes": 78.52944
+  },
+  {
+    "Place": "District Hospital, APVVP, Pulivendula, Kadapa District",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "District Hospital, Rajahmundry, East Godavari District",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": 17.0194,
+    "Longitudes": 81.79186
+  },
+  {
+    "Place": "District Hospital, Noonepalli, Nandyal, Kurnool",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": 15.46964,
+    "Longitudes": 78.48365
+  },
+  {
+    "Place": "District Hospital, Anakapalli, Vishakhapatnam",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": 17.72497,
+    "Longitudes": 83.0426
+  },
+  {
+    "Place": "District Hospital, Hindupur, Anantpur",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": 26.54699,
+    "Longitudes": 80.28512
+  },
+  {
+    "Place": "District Hospital, Proddatur",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": -35.73597,
+    "Longitudes": 174.30023
+  },
+  {
+    "Place": "District Hospital, Machlipatnam",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": -35.73597,
+    "Longitudes": 174.30023
+  },
+  {
+    "Place": "District Hospital, Atmakur",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": -35.73597,
+    "Longitudes": 174.30023
+  },
+  {
+    "Place": "District Hospital, Markapur",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": -35.73597,
+    "Longitudes": 174.30023
+  },
+  {
+    "Place": "District Hospital, Tekkali",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": -35.73597,
+    "Longitudes": 174.30023
+  },
+  {
+    "Place": "Area Hospital, Rampachodavaram, East Godavari District",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": 16.83344,
+    "Longitudes": 82.03212
+  },
+  {
+    "Place": "Area Hospital, Palamaner, Chittoor",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": 13.20117,
+    "Longitudes": 78.74327
+  },
+  {
+    "Place": "Area Hospital, Amalapuram, East Godavari District",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": 16.83344,
+    "Longitudes": 82.03212
+  },
+  {
+    "Place": "Area Hospital, Adoni, Kurnool",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": 15.3997,
+    "Longitudes": 77.50101
+  },
+  {
+    "Place": "Area Hospital, Chirala",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Area Hospital, Kandukuru",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Area Hospital, Narsipatnam",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Area Hospital, Parvathipuram",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Area Hospital, Tadepalligudem",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Area Hospital, Kavali",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": 14.91322,
+    "Longitudes": 79.99224
+  },
+  {
+    "Place": "Area Hospital, Tenali",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": 19.0033,
+    "Longitudes": 72.81744
+  },
+  {
+    "Place": "Area Hospital, Narasaraopet, Guntur",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": 16.23389,
+    "Longitudes": 80.05362
+  },
+  {
+    "Place": "Area Hospital, Macheria, Guntur",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": 16.47659,
+    "Longitudes": 79.43682
+  },
+  {
+    "Place": "Area Hospital, Kadiri",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": 14.11318,
+    "Longitudes": 78.15731
+  },
+  {
+    "Place": "Area Hospital, Gandhinagar, Nuzividu",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": 12.97287,
+    "Longitudes": 77.57863
+  },
+  {
+    "Place": "ACSR Govt. Medical College, Nellore",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": 8.51636,
+    "Longitudes": 76.9276
+  },
+  {
+    "Place": "Rural Development Trust, Bathalpalli",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Govt. General Hospital, Guntur",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": 16.41575,
+    "Longitudes": 80.55836
+  },
+  {
+    "Place": "Govt. General Hospital/ RIMS, Ongole",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": 9.97148,
+    "Longitudes": 76.28099
+  },
+  {
+    "Place": "DST Lab Govt. Chest Hospital, Vishakhapatnam",
+    "State": "Andhra Pradesh",
+    "Type": "Public",
+    "testType": "TrueNat",
+    "Latitudes": 17.72944,
+    "Longitudes": 83.33048
+  },
+  {
+    "Place": "National JALMA Institute for Leprosy and Other Mycobacterial Diseases, Agra",
+    "State": "Uttar Pradesh",
+    "Type": "Public",
+    "testType": "CBNAAT",
+    "Latitudes": 27.16964,
+    "Longitudes": 78.05218
+  },
+  {
+    "Place": "Intermediate Reference Laboratory, Nagpur",
+    "State": "Maharashtra",
+    "Type": "Public",
+    "testType": "CBNAAT",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Intermediate Reference Laboratory, Pune",
+    "State": "Maharashtra",
+    "Type": "Public",
+    "testType": "CBNAAT",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "RCSM Govt. Medical College, Kolhapur",
+    "State": "Maharashtra",
+    "Type": "Public",
+    "testType": "CBNAAT",
+    "Latitudes": 21.13203,
+    "Longitudes": 79.09717
+  },
+  {
+    "Place": "Gadag Institute of Medical Sciences, Gadag",
+    "State": "Karnataka",
+    "Type": "Public",
+    "testType": "CBNAAT",
+    "Latitudes": 15.43168,
+    "Longitudes": 75.63273
+  },
+  {
+    "Place": "Lal Path Labs, Block -E, Sector 18, Rohini, Delhi",
+    "State": "Delhi",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 28.73869,
+    "Longitudes": 77.13639
+  },
+  {
+    "Place": "Dr Dangs Lab, C-2/1, Safadarjung Development Area, New-Delhi",
+    "State": "Delhi",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 28.55125,
+    "Longitudes": 77.19875
+  },
+  {
+    "Place": "Laboratory Services, Indraprastha Apollo Hospitals, Sarita Vihar, New Delhi",
+    "State": "Delhi",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 28.54138,
+    "Longitudes": 77.28325
+  },
+  {
+    "Place": "Max Lab, Max Super Spciality Hospital, Saket, New-Delhi",
+    "State": "Delhi",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 28.52812,
+    "Longitudes": 77.21076
+  },
+  {
+    "Place": "Sir Ganga Ram Hospital Clinical Lab Services, Sir Ganga Ram Hospital, Delhi",
+    "State": "Delhi",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Oncquest Labs Ltd, 3-Factory Road, New-Delhi",
+    "State": "Delhi",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 28.56872,
+    "Longitudes": 77.20189
+  },
+  {
+    "Place": "Prognosis Laboratories, 515-16, Sector 19, Dwarka",
+    "State": "Delhi",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "City X-Ray and Scan Clinic Pvt Ltd, 4B/18, Tilak Nagar, New-Delhi",
+    "State": "Delhi",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 28.63971,
+    "Longitudes": 77.10101
+  },
+  {
+    "Place": "Lifeline Laboratory, H-11, Green Park Extension, New-Delhi",
+    "State": "Delhi",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 28.56017,
+    "Longitudes": 77.20435
+  },
+  {
+    "Place": "Dept of Lab Services, Dr. B.L. Kapur Memorial Hospital, 5, Pusa Road, New-Delhi",
+    "State": "Delhi",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 28.6438,
+    "Longitudes": 77.18085
+  },
+  {
+    "Place": "Dept of Laboratory Services, Action Cancer Hospital, A-4, Paschim Vihar (East), New-Delhi",
+    "State": "Delhi",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Unipath Specialty laboratory limited, 102, Sanoma Plaza, Opposite Parimal Garden, Besides JMC House, Ellisbridge, Ahmedabad",
+    "State": "Gujarat",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Supratech Micropath Laboratory and Research Institute Pvt Ltd, Kedar, Ahmedabad",
+    "State": "Gujarat",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 22.99844,
+    "Longitudes": 72.62537
+  },
+  {
+    "Place": "SN GeneLab Pvt Ltd, President Plaza –A, Near Mahavir Hospital, Nanpura, Surat",
+    "State": "Gujarat",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Pangenomics International Pvt Ltd, Ellis Bridge, Ahmedabad",
+    "State": "Gujarat",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 23.02797,
+    "Longitudes": 72.56972
+  },
+  {
+    "Place": "Strand Life Sciences, A-17, Sector 34, Gurugram",
+    "State": "Haryana",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "SRL Limited, GP26, Sector 18, Gurugram",
+    "State": "Haryana",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 28.42538,
+    "Longitudes": 77.09301
+  },
+  {
+    "Place": "Modern Diagnostic and Research Centre-Lab, 363-364/4, JAwahar Nagar. Gurgaon",
+    "State": "Haryana",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 28.46669,
+    "Longitudes": 77.02768
+  },
+  {
+    "Place": "Core Diagnostics Pvt Ltd, Udyog Vihar Phase-3, Gurgaon",
+    "State": "Haryana",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 28.50921,
+    "Longitudes": 77.09179
+  },
+  {
+    "Place": "MolQ Laboratory, Plot 28,29; Sector 18(P), Electronic city, Udyog Vihar, Phase IV, Gurgaon",
+    "State": "Haryana",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 28.50071,
+    "Longitudes": 77.07732
+  },
+  {
+    "Place": "Pathkind Diagnostics Pvt Ltd, Plot 55-56, Phase 4, Udyog Vihar, Sec 18, Gurgaon",
+    "State": "Haryana",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Department of Pathology and Laboratory Medicine, Medanta-The Medicity, Sector 38, Gurgaon",
+    "State": "Haryana",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Tata Main Hospital (Dept of Pathology), Tata Steel, Bistupur, Jamshedpur",
+    "State": "Jharkhand",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 22.80063,
+    "Longitudes": 86.1783
+  },
+  {
+    "Place": "Neuberg Anand Reference Laboratory, Anand Tower, 54, Bowring Hospital Road, Bengaluru",
+    "State": "Karnataka",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Cancyte Technologies Pvt Ltd, Sri Shankara Research Centre, Bengaluru",
+    "State": "Karnataka",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Sakra World Hospital Lab Services, Devarabeesanahalli VArthur Hobli, Bengaluru",
+    "State": "Karnataka",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 12.93174,
+    "Longitudes": 77.68539
+  },
+  {
+    "Place": "Central Diagnostic Lab, Vydehi Institute of Medical Sciences and Research Centre, 82, E.P.I.P. Area, Whitefield, Bengaluru",
+    "State": "Karnataka",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 12.96481,
+    "Longitudes": 77.71806
+  },
+  {
+    "Place": "Lab Services, Apollo Hospitals, 154/11, Bannerghatta Road, Bengaluru",
+    "State": "Karnataka",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "DDRC SRL Diagnostics Pvt Ltd, Panampilly Nagar, Ernakulam",
+    "State": "Kerala",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 9.96345,
+    "Longitudes": 76.29522
+  },
+  {
+    "Place": "MIMS Lab Services, Govindapuram, Kozhikode",
+    "State": "Kerala",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 11.24818,
+    "Longitudes": 75.79958
+  },
+  {
+    "Place": "Chirayu Medical College and Hospital, Bhopal Indore Highway, Bhaisakhedi, Bhopal",
+    "State": "Madhya Pradesh",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 23.26751,
+    "Longitudes": 77.30867
+  },
+  {
+    "Place": "Central Research Lab, R D Gardi Medical College, Surasa, Ujjain",
+    "State": "Madhya Pradesh",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Thyrocare Technologies Limited, D37/1, TTC MIDC, Turbhe, Navi Mumbai",
+    "State": "Maharashtra",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 19.0619,
+    "Longitudes": 73.02613
+  },
+  {
+    "Place": "Suburban Diagnostics (India) Pvt. Ltd., 306, 307/T, 3rd Floor, Sunshine Bld., Andheri (W), Mumbai",
+    "State": "Maharashtra",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 19.12929,
+    "Longitudes": 72.83149
+  },
+  {
+    "Place": "Metropolis Healthcare Ltd, Unit No. 409-416, 4th Floor, Commercial Building-1, Kohinoor Mall, Mumbai",
+    "State": "Maharashtra",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Sir H.N. Reliance Foundation Hospital and Research Centre, Molecular Medicine, Reliance Life Sciences Pvt. Ltd., R-282, TTC Industrial Area, Rabale, Navi Mumbai",
+    "State": "Maharashtra",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "SRL Limited, Prime Square Building, Plot No 1, Gaiwadi Industrial Estate, SV Road, Goregaon, Mumbai",
+    "State": "Maharashtra",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "A.G. Diagnostics Pvt Ltd, Nayantara Building, Pune",
+    "State": "Maharashtra",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Kokilaben Dhirubhai Ambani Hospital Laboratory, Four Bungalows, Mumbai",
+    "State": "Maharashtra",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 19.1313,
+    "Longitudes": 72.82558
+  },
+  {
+    "Place": "InfeXn Laboratories Private Limited, A/131, Therelek Compound, Road No 23, Wagle Industrial Estate, Thane (W)",
+    "State": "Maharashtra",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "iGenetic Diagnostics Pvt Ltd, Krislon House, Andheri East, Mumbai",
+    "State": "Maharashtra",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 19.11042,
+    "Longitudes": 72.8866
+  },
+  {
+    "Place": "Sahyadri Speciality Labs, Plot No 54, S.No. 89-90, Lokmanya Colony, Kothrud, Pune",
+    "State": "Maharashtra",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Dr. Jariwala Lab and Diagnostics LLP, 1st Floor, Rasraj Heights, Rokadia Lane, Off Mandpeshwar Road, Borivli (W), Mumbai",
+    "State": "Maharashtra",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Ruby Hall Clinic, Dept of Laboratory, Grant Medical Foundation, 40, Sassoon Road, Pune",
+    "State": "Maharashtra",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Metropolis Healthcare Limited, Construction House, 796/189-B, Bhandarkar Institute Road, Pune",
+    "State": "Maharashtra",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "SRL Diagnostics – Dr. Avinash Phadke (SRL Diagnostics Pvt Ltd), Mahalaxmi Engineering Estate, 2nd Floor, L.J. Cross Road No 1, KJ Khilnani High School, Mahim (West), Mumbai",
+    "State": "Maharashtra",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Sunflower Lab and Diagnostic Center, Keshav Kunj, Marve Road, Malad West, Mumbai",
+    "State": "Maharashtra",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 19.19252,
+    "Longitudes": 72.84221
+  },
+  {
+    "Place": "Department of Laboratory Medicine – P.D. Hinduja National Hospital and Medical Research Centre, Veer Savarkar Marg, Mahim, Mumbai",
+    "State": "Maharashtra",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 19.0335,
+    "Longitudes": 72.83862
+  },
+  {
+    "Place": "Aditya Birla Memorial Hospital – Laboratory, Aditya Birla Marg, Chinchwad, Pune",
+    "State": "Maharashtra",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 18.61592,
+    "Longitudes": 73.76596
+  },
+  {
+    "Place": "Vaidya Lab Thane, Unit of Millenium Special Lab Pvt Ltd, Odyssey Park, 2nd Floor, 201, Raghunath Nagar, Wagle Estate, Thane",
+    "State": "Maharashtra",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Genepath Diagnostics India Pvt Ltd, 4th Floor, Above Phadke Hospital, Pune",
+    "State": "Maharashtra",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Dept of Lab Services, Apollo Hospitals, Bhubaneswar",
+    "State": "Orissa",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 20.30507,
+    "Longitudes": 85.83202
+  },
+  {
+    "Place": "Department of Microbiology, Dayanand Medical College and Hospital, Tagore Nagar, Civil Lines, Ludhiana",
+    "State": "Punjab",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 30.91452,
+    "Longitudes": 75.82322
+  },
+  {
+    "Place": "Tuli Diagnostic Centre, Majitha Road, Amritsar",
+    "State": "Punjab",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 31.65886,
+    "Longitudes": 74.8892
+  },
+  {
+    "Place": "Central Lab, The Mahatma Gandhi University of Medical Sciences and Technology, RIICO Institution Area, Sitapura, Tonk Road, Jaipur",
+    "State": "Rajasthan",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Dr. B Lal Clinical Lab Pvt Ltd, 6-E, Malviya Industrial Area, Malviya Nagar, Jaipur",
+    "State": "Rajasthan",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 26.85458,
+    "Longitudes": 75.831
+  },
+  {
+    "Place": "Dept. of Clinical Virology, CMC, Vellore",
+    "State": "Tamil Nadu",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Department of Laboratory Services, Apollo Hospitals Enterprise Ltd, Chennai",
+    "State": "Tamil Nadu",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Neuberg Ehrlich Lab Pvt Ltd, 46-48 Masilamani Road, Balaji Nagar, Chennai",
+    "State": "Tamil Nadu",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 13.04987,
+    "Longitudes": 80.26634
+  },
+  {
+    "Place": "Sri Ramachandra Medical College and Research Institute, Porur, Chennai",
+    "State": "Tamil Nadu",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 13.03682,
+    "Longitudes": 80.14245
+  },
+  {
+    "Place": "Microbiology Lab, Veerakeralam Road, Coimbatore",
+    "State": "Tamil Nadu",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 11.01294,
+    "Longitudes": 76.91053
+  },
+  {
+    "Place": "YRG CARE, Taramani, Chennai",
+    "State": "Tamil Nadu",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 12.98299,
+    "Longitudes": 80.24125
+  },
+  {
+    "Place": "Hitech Diagnostic Centre- A Unit of Dr. Ganesan’s Hitech Diagnostic Centre PVt Ltd, Poonamallee High Road, Chennai",
+    "State": "Tamil Nadu",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "MIOT Hospitals – Dept of Lab Medicine, 4/112, Mount Poonamallee Road, Manapakkam, Chennai",
+    "State": "Tamil Nadu",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 13.02047,
+    "Longitudes": 80.18527
+  },
+  {
+    "Place": "Madras Medical Mission Clinical Lab Services, 4-A, Dr. J. Jayalalitha Nagar, Mogappair East, Chennai",
+    "State": "Tamil Nadu",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 13.08604,
+    "Longitudes": 80.18755
+  },
+  {
+    "Place": "PSG Hospitals Diagnostic Centre, Avinashi Road, Peelamedu, Coimbatore",
+    "State": "Tamil Nadu",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 11.05009,
+    "Longitudes": 77.03865
+  },
+  {
+    "Place": "Medall Healthcare Pvt Ltd, 17, Race View Colony, 2nd street, Race Course Road, Guindy, Chennai",
+    "State": "Tamil Nadu",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 13.01082,
+    "Longitudes": 80.21673
+  },
+  {
+    "Place": "Laboratory Services,  Apollo Hospitals, 6th Floor, Health Street Building, Jubilee Hills, Hyderabad",
+    "State": "Telangana",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 17.42865,
+    "Longitudes": 78.39762
+  },
+  {
+    "Place": "Vijaya Diagnostic Centre Pvt Ltd, Street No 19, Himayath Nagar, Hyderabad",
+    "State": "Telangana",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 17.43629,
+    "Longitudes": 78.43361
+  },
+  {
+    "Place": "Vimta Labs Ltd, Plot No 142, Phase 2, IDA Cherlapally, Hyderabad",
+    "State": "Telangana",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 17.47037,
+    "Longitudes": 78.60235
+  },
+  {
+    "Place": "Apollo Health and Lifestyle Limited, Diagnostic Labortory, Bowenpally, Secunderabad",
+    "State": "Telangana",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 17.44475,
+    "Longitudes": 78.46577
+  },
+  {
+    "Place": "Dr. Remedies Labs Private Ltd, A3, Titus Plaza, Sharma Commercial Complex, Punjagutta, Hyderabad",
+    "State": "Telangana",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Pathcare Labs Pvt Ltd, Medchal, Hyderabad",
+    "State": "Telangana",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 17.47165,
+    "Longitudes": 78.50967
+  },
+  {
+    "Place": "American Institute of Pathology And Lab Sciences Pvt Ltd, Citizens Hospital, Serilingampally, Hyderabad",
+    "State": "Telangana",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Medcis Pathlabs India Pvt Ltd, Plot No 16 and 17, Swathi Plaza, Anand Nagar, New Bowenpally, Secunderabad",
+    "State": "Telangana",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Department of Lab Medicine, Yashoda Hospital, 9th Floor, 1-1-156 and 157, Alexander Road, Secunderabad",
+    "State": "Telangana",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Biognosys Technologies (India) Pvt Ltd, #8-148/174/11, NRI Colony, Near Aleap Industrial Area, Medchal, Malkajgiri",
+    "State": "Telangana",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Tenet Diagnostics, Plot No 51, Kineta Towers, Journalist Colony, Road No 3, Banjara Hills, Hyderabad",
+    "State": "Telangana",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 17.4164,
+    "Longitudes": 78.42053
+  },
+  {
+    "Place": "RML Mehrotra Pathology Pvt Ltd, Nirala Nagar,  Lucknow",
+    "State": "U.P.",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 26.87298,
+    "Longitudes": 80.94092
+  },
+  {
+    "Place": "Dept of Lab Medicine, Jaypee Hospital, Sector 128, Noida",
+    "State": "U.P.",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 28.51567,
+    "Longitudes": 77.37286
+  },
+  {
+    "Place": "Dr. Ahuja’s Pathology and Imaging Centre, 7-B, Astley Hall, Dehradun",
+    "State": "Uttarakhand",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 30.3268,
+    "Longitudes": 78.0468
+  },
+  {
+    "Place": "Apollo Gleneagles Hospitals, 58 Canal Circular Road, Kolkata",
+    "State": "West Bengal",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 22.57437,
+    "Longitudes": 88.4024
+  },
+  {
+    "Place": "Tata Medical Center, Rajarhat, Kolkata",
+    "State": "West Bengal",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 22.57617,
+    "Longitudes": 88.47994
+  },
+  {
+    "Place": "Laboratory Services, Peerless Hospitex Hospital and Research Centre, 360, Panchasayar, Kolkata",
+    "State": "West Bengal",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": 22.48115,
+    "Longitudes": 88.3941
+  },
+  {
+    "Place": "AMRI Hospitals, Dept of Lab Medicine, JC 16-17, Sector III, Salt Lake City, Kolkata",
+    "State": "West Bengal",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Suraksha Diagnostic Pvt Ltd (Dept of Lab Services), 12/1, Premises No 02/0327, DG Block (Newtown), Action Area 1D, Newtown, Kolkata",
+    "State": "West Bengal",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  },
+  {
+    "Place": "Dr. Lal Pathlabs Ltd – Kolkata Reference lab, Plot No CB-31/1, Premises No 031-0199, Street No 199, Action Area 1C, Newtown, Kolkata",
+    "State": "West Bengal",
+    "Type": "private",
+    "testType": "RT-PCR",
+    "Latitudes": "",
+    "Longitudes": ""
+  }
+]
