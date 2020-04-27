@@ -36,7 +36,10 @@ function makeChart(chartCTX, data, dates, type) {
         options: {
             scales: {
                 yAxes: [{
-                    display: true
+                    display: true,
+                    ticks: {
+                        display: false
+                    }
                 }],
                 xAxes: [{
                     display: false
