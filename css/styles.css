@@ -93,6 +93,10 @@ body {
     text-align: center;
 }
 
+.wide-cell {
+  min-width: 100px;
+}
+
 #card-recover {
     background-color: transparent;
     color: #28a745;

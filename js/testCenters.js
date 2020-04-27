@@ -14,6 +14,7 @@ $(document).ready(function () {
 			let testType = document.createElement('td');
 
             tr.setAttribute('data-id', id);
+            tr.setAttribute('class', 'labs')
 			
             place.textContent = obj.Place;
 			place.style.color = "white";
@@ -22,10 +23,13 @@ $(document).ready(function () {
             state.style.color = "white";
 
             org.textContent = obj.Type;
-            org.style.color = "white";
+            if(org.textContent=="Public")
+                org.style.color = "rgb(255,7,58)";
+            else
+                org.style.color = "rgb(40,167,69)";
 
             testType.textContent = obj.testType;
-            testType.style.color = "white";
+            testType.style.color = "rgb(0,123,255)";
 
             tr.appendChild(place);
             tr.appendChild(state);
@@ -44,11 +48,11 @@ const searchBar = document.getElementById('search-labs');
 searchBar.addEventListener('keyup'||'keydown', function(e) {
 
     const term = e.target.value.toLowerCase();
-    const labs = document.getElementsByTagName('tr');
+    const labs = document.getElementsByClassName('labs');
     var head = document.getElementById('labs-header');
 
     Array.from(labs).forEach(function(lab){
-        console.log(lab.textContent)
+        //console.log(lab.textContent)
         if(lab.textContent.toLowerCase().indexOf(term) != -1 && lab.textContent.toLowerCase().indexOf(head) == -1 ) {
             //lab.style.display = 'block';
             //var head = document.getElementById('labs-header');
