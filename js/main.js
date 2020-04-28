@@ -92,6 +92,8 @@ $(document).ready(function () {
         makeChart(chartRecover, time_recovered, time_dates, "Recovered");
         makeChart(chartDecease, time_deaths, time_dates, "Deceases");
 
+        //console.log(time_confirmed,time_active,time_dates,time_deaths,time_recovered);
+
 
 
         // ------------ Getting Table Data ---------------
@@ -186,7 +188,7 @@ $(document).ready(function () {
 });
 
 
-// Headmap with Mapbox
+// Cluster Map with Mapbox
 
 mapbox_token = "pk.eyJ1IjoiYW1pdG05OSIsImEiOiJjazlkejExcmEwMGhqM2ZvYmlrbnhrY2s4In0.Da6mYNzOOFPQZ8LqLYs2OA";
 
@@ -195,4 +197,77 @@ var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/dark-v10',
     zoom: 1
+});
+
+map.on('load', function() {
+
+    map.addSource('coronavirus', {
+        type: 'geojson',
+        data:
+            'https://services1.arcgis.com/0MSEUqKaxRlEPj5g/arcgis/rest/services/Coronavirus_2019_nCoV_Cases/FeatureServer/1/query?outFields=*&where=1%3D1&f=geojson',
+        cluster: true,
+        clusterMaxZoom: 14, 
+        clusterRadius: 50
+    });
+     
+    map.addLayer({
+        id: 'clusters',
+        type: 'circle',
+        source: 'coronavirus',
+        filter: ['has', 'Confirmed'],
+        paint: {
+            'circle-color': [
+                'step',
+                ['get', 'Confirmed'],
+                '#BDDEFA',
+                500,
+                '#90CDF3',
+                1500,
+                '#5AB6EF',
+                5000,
+                '#2A9BE8',
+                10000,
+                '#067EDC',
+                20000,
+                '#025FC9',
+                30000,
+                '#01458E'
+            ],
+            'circle-radius': [
+                'step',
+                ['get', 'Confirmed'],
+                20,
+                100,
+                40,
+                750,
+                50
+            ]
+        }
+    });
+     
+    map.addLayer({
+        id: 'cluster-count',
+        type: 'symbol',
+        source: 'coronavirus',
+        filter: ['has', 'Confirmed'],
+        layout: {
+            'text-field': "{Confirmed}",
+            'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
+            'text-size': 12
+        }
+    });
+
+    map.addLayer({
+        id: 'unclustered-point',
+        type: 'circle',
+        source: 'coronavirus',
+        filter: ['!', ['has', 'Confirmed']],
+        paint: {
+            'circle-color': '#11b4da',
+            'circle-radius': 4,
+            'circle-stroke-width': 1,
+            'circle-stroke-color': '#fff'
+        }
+    });
+    
 });

@@ -19,7 +19,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     
-    
+    <link rel="icon" type="image/png" href="http://example.com/myicon.png">
 
 
     <!-- Mapbox -->
@@ -35,8 +35,6 @@
     <script src="js/materialize.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
-
-    <script src="http://d3js.org/d3.v3.min.js"></script>
 
 	<title>COVID-19</title>
 </head>
@@ -198,7 +196,7 @@
     <div class="tabcontent" id="page_1">
       <div id="body">
         <div class="containter">
-            <div id='map'></div>
+            <div id="map"></div>
         </div>
 
         <ul id="tabs" class="tabs tabs-fixed-width tab-demo z-depth-1">
@@ -312,11 +310,29 @@
 
         <!-- Search Bar -->
         <div class="row">
-          <div class="input-field col s10 l6 offset-s1 offset-l3">
+          <div class="input-field col s8 offset-s2 l6 offset-l2">
             <input placeholder="Search" id="search-labs" type="text" class="validate">
           </div>
+
+          <div class="col l2 hide-on-med-and-down">
+            <select class="browser-default" id="sel-labType" onchange="selectLab()">
+              <option value="" disabled selected>Choose Lab Type</option>
+              <option value="Public">Public</option>
+              <option value="Private">Private</option>
+            </select>
+          </div>
         </div>
-                    
+
+        <div class="row hide-on-large-only">
+          <div class="col s4 offset-s4">
+            <select class="browser-default" id="sel-labType" onchange="selectLab()">
+              <option value="" disabled selected>Lab Type</option>
+              <option value="Public">Public</option>
+              <option value="Private">Private</option>
+            </select>
+          </div>
+        </div>
+                   
         <!-- List of Centers -->
         <div class="container">
           <table>

@@ -38,21 +38,72 @@ $(document).ready(function () {
     });
 });
 
+
+// ===========Nothing is Printing============
+/*
+const select = document.getElementById('sel-labType');
+console.log(select.options.value)
+
+select.addEventListener('change', function(e) {
+
+    const term = e.options.value;
+    console.log(e);
+    const table = document.getElementById("lab-list");
+    const labs = table.getElementsByTagName('tr');
+    var head = document.getElementById('labs-header');
+
+    Array.from(labs).forEach(function(lab){
+        console.log(lab.textContent)
+        if(lab.textContent.indexOf(term) != -1 && lab.textContent.indexOf(head) == -1 ) {
+            lab.style.display = '';
+            head.style.display = '';
+        }
+        else {
+            lab.style.display = 'none';
+        }
+    });
+});
+*/
+
+// ============= Printing in Consol and Showing Selected option is undefind============
+function selectLab() {
+
+    const select = document.getElementById('sel-labType');
+    console.log(select.options.value);
+    const term = select.options.value;
+    //console.log(term);
+    const table = document.getElementById("lab-list");
+    const labs = table.getElementsByTagName('tr');
+    var head = document.getElementById('labs-header');
+
+    Array.from(labs).forEach(function(lab){
+        console.log(lab.textContent)
+        if(lab.textContent.indexOf(term) != -1 && lab.textContent.indexOf(head) == -1 ) {
+            lab.style.display = '';
+            head.style.display = '';
+        }
+        else {
+            lab.style.display = 'none';
+        }
+    });
+};
+
+
 // -------------Search Bar Function --------------
 const searchBar = document.getElementById('search-labs');
 
 searchBar.addEventListener('keyup'||'keydown', function(e) {
 
     const term = e.target.value.toLowerCase();
-    const labs = document.getElementsByTagName('tr');
+    const table = document.getElementById("lab-list");
+    const labs = table.getElementsByTagName('tr');
     var head = document.getElementById('labs-header');
 
     Array.from(labs).forEach(function(lab){
         console.log(lab.textContent)
         if(lab.textContent.toLowerCase().indexOf(term) != -1 && lab.textContent.toLowerCase().indexOf(head) == -1 ) {
             //lab.style.display = 'block';
-            //var head = document.getElementById('labs-header');
-            head.style.display = 'block';
+            head.style.display = '';
         }
         else {
             lab.style.display = 'none';
