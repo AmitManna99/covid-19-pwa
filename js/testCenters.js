@@ -42,7 +42,6 @@ $(document).ready(function () {
 // =========== Filter by Select ============
 
 const select = document.getElementById('sel-labType');
-console.log(select.options[select.selectedIndex].value);
 
 select.addEventListener('change', function(e) {
     const term = e.target.value;
@@ -76,7 +75,6 @@ function selectLab() {
     var head = document.getElementById('labs-header');
 
     Array.from(labs).forEach(function(lab){
-        console.log(lab.textContent)
         if(lab.textContent.indexOf(term) != -1 && lab.textContent.indexOf(head) == -1 ) {
             lab.style.display = '';
             head.style.display = '';

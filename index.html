@@ -7,8 +7,8 @@
     
     <!-- Themes and PWA Tags -->
     
-	<meta name="theme-color" content="blue">
-	<meta name="apple-mobile-web-app-status-bar" content="blue">
+	<meta name="theme-color" content="#151725">
+	<meta name="apple-mobile-web-app-status-bar" content="#151725">
     <link rel="apple-touch-icon" href="images/Icon/icon96.png">
     
 
@@ -36,7 +36,7 @@
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
 
-	<title>COVID-19</title>
+	<title>YACT</title>
 </head>
 
 <body>
@@ -192,7 +192,7 @@
     
     <!-- Tabs (India or Worldwide) -->
     <main>
-    <div class="header"><span class="fa-primary">Another.</span> Tracker</div>
+    <div class="header"><span class="fa-primary">Yet Another.</span><span class="red-covid"> Corona</span> Tracker</div>
     <div class="tabcontent" id="page_1">
       <div id="body">
         <div class="containter">
@@ -362,16 +362,44 @@
     </div>
 
     <div class="tabcontent" id="page_4">
-      
-    </div>
+      <div class="container center">
+        <span id="about-main" class="flow-text white-text"></span>
 
+        <div class="add_spacing"></div>
+
+        <table>
+          <thead>
+              <tr id="dev-header">
+                  <th class="blue-text">Name</th>
+                  <th class="blue-text">Profiles</th>
+              </tr>
+          </thead>
+  
+          <tbody id="dev-list">
+              <!-- Here the dev List will appear-->
+          </tbody>
+        </table>
+        <table>
+          <thead>
+              <tr id="src-header">
+                  <th class="white-text">Sources</th>
+              </tr>
+          </thead>
+  
+          <tbody id="src-list">
+              <!-- Here the Sources List will appear-->
+          </tbody>
+      </table>
+      </div>
+    </div>
+      
     <div class="add_spacing">
 
     </div>
 </main>
     <script src="js/transition.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/ui.js"></script>
+    <script src="js/about.js"></script>
     <script src="js/app.js"></script>
     <script src="js/testCenters.js"></script>
     </script>

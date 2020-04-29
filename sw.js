@@ -10,9 +10,10 @@ const assets = [
     '/css/materialize.min.css',
     '/css/styles.css',
     'https://fonts.googleapis.com/icon?family=Material+Icons',
-    '/js/ui.js',
+    '/js/about.js',
     '/js/testCenters.js',
-    '/resource/Labs.json'
+    '/resource/Labs.json',
+    '/resouce/about.json'
 ];
 
 // cache size limit function

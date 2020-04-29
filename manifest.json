@@ -1,6 +1,6 @@
 {
-    "name": "COVID-19",
-    "short_name": "Corona Tracker",
+    "name": "Yet Another Corona Tracker",
+    "short_name": "YACT",
     "start_url": "/index.html",
     "display": "standalone",
     "background_color": "#FFF",
