@@ -196,7 +196,7 @@ mapboxgl.accessToken = mapbox_token;
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/dark-v10',
-    zoom: 1
+    zoom: 2
 });
 
 map.on('load', function() {
@@ -219,19 +219,19 @@ map.on('load', function() {
             'circle-color': [
                 'step',
                 ['get', 'Confirmed'],
-                '#BDDEFA',
+                'rgba(235,0,10,0.35)',
                 500,
-                '#90CDF3',
+                'rgba(235,0,10,0.45)',
                 1500,
-                '#5AB6EF',
+                'rgba(235,0,10,0.55)',
                 5000,
-                '#2A9BE8',
+                'rgba(235,0,10,0.65)',
                 10000,
-                '#067EDC',
+                'rgba(235,0,10,0.75)',
                 20000,
-                '#025FC9',
+                'rgba(235,0,10,0.85)',
                 30000,
-                '#01458E'
+                'rgba(235,0,10,1)'
             ],
             'circle-radius': [
                 'step',

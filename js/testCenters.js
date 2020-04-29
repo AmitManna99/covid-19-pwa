@@ -39,15 +39,14 @@ $(document).ready(function () {
 });
 
 
-// ===========Nothing is Printing============
-/*
+// =========== Filter by Select ============
+
 const select = document.getElementById('sel-labType');
-console.log(select.options.value)
+console.log(select.options[select.selectedIndex].value);
 
 select.addEventListener('change', function(e) {
+    const term = e.target.value;
 
-    const term = e.options.value;
-    console.log(e);
     const table = document.getElementById("lab-list");
     const labs = table.getElementsByTagName('tr');
     var head = document.getElementById('labs-header');
@@ -63,14 +62,14 @@ select.addEventListener('change', function(e) {
         }
     });
 });
-*/
 
-// ============= Printing in Consol and Showing Selected option is undefind============
+
+// ============= Also Working Now ============
 function selectLab() {
 
-    const select = document.getElementById('sel-labType');
-    console.log(select.options.value);
-    const term = select.options.value;
+    const select = document.getElementById('selm-labType');
+    console.log(select.options[select.selectedIndex].value);
+    const term = select.options[select.selectedIndex].value;
     //console.log(term);
     const table = document.getElementById("lab-list");
     const labs = table.getElementsByTagName('tr');
