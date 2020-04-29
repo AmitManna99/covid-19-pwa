@@ -1,3 +1,7 @@
+// Tab Selector
+var el = document.querySelector('.tabs');
+var instance = M.Tabs.init(el, {});
+
 
 // ------------ Make Chart --------------
 
@@ -55,14 +59,7 @@ function makeChart(chartCTX, data, dates, type) {
 $(document).ready(function () {
     $.getJSON('https://api.covid19india.org/data.json', function (data) {
 
-        // Getting Card Data
-        $("#confirmed").append(data.statewise[0].confirmed); //Total Confirmed
-        $("#active").append(data.statewise[0].active); //Total Active
-        $("#recovered").append(data.statewise[0].recovered); //Total Recovered
-        $("#deceases").append(data.statewise[0].deaths); //Total Deceases
-
-
-
+        
         //-----------------Time Series Data------------------
 
         const time_confirmed = [];
@@ -95,6 +92,21 @@ $(document).ready(function () {
         //console.log(time_confirmed,time_active,time_dates,time_deaths,time_recovered);
 
 
+        // Getting Card Data
+        $("#confirmed").append(data.statewise[0].confirmed); //Total Confirmed
+        $("#del-confirmed").append('[' + data.statewise[0].deltaconfirmed + ']'); 
+
+        $("#active").append(data.statewise[0].active); //Total Active
+        let del_active = time_active.slice(-3,-1);
+        $("#del-active").append('[' + (del_active[1]-del_active[0]) + ']');
+
+        $("#recovered").append(data.statewise[0].recovered); //Total Recovered
+        $("#del-recovered").append('[' + data.statewise[0].deltarecovered + ']');
+
+        $("#deceases").append(data.statewise[0].deaths); //Total Deceases
+        $("#del-deaths").append('[' + data.statewise[0].deltadeaths + ']');
+
+
 
         // ------------ Getting Table Data ---------------
 
@@ -117,7 +129,7 @@ $(document).ready(function () {
             confirm.textContent = obj.confirmed;
             confirm.setAttribute("class", "red-covid");
 
-            active.textContent = obj.confirmed - obj.recovered - obj.deaths;
+            active.textContent = obj.active;
             active.setAttribute("class", "blue-covid");
 
             recover.textContent = obj.recovered;
