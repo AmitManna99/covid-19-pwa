@@ -98,6 +98,7 @@ $(document).ready(function () {
 
         $("#active").append(data.statewise[0].active); //Total Active
         let del_active = time_active.slice(-3,-1);
+        //console.log(del_active);
         $("#del-active").append('[' + (del_active[1]-del_active[0]) + ']');
 
         $("#recovered").append(data.statewise[0].recovered); //Total Recovered
@@ -156,47 +157,83 @@ $(document).ready(function () {
 // -------------- Getting Worldwide Data -------------
 
 $(document).ready(function () {
-    $.getJSON('https://api.covid19india.org/data.json', function (data) {
 
-        // Getting Card Data
-        $("#wconfirmed").append(data.statewise[0].confirmed); //Total Confirmed
-        $("#wactive").append(data.statewise[0].active); //Total Active
-        $("#wrecovered").append(data.statewise[0].recovered); //Total Recovered
-        $("#wdeceases").append(data.statewise[0].deaths); //Total Deceases
+    // Getting Total Cases
+    fetch("https://coronavirus-monitor.p.rapidapi.com/coronavirus/worldstat.php", {
+        "method": "GET",
+        "headers": {
+            "x-rapidapi-host": "coronavirus-monitor.p.rapidapi.com",
+            "x-rapidapi-key": "f3fe549e87msh054dcee16b82229p11cc3ajsn69121657c69d"
+        }
+    })
+        .then(response =>response.json().then( data =>{
+            //console.log(data);
 
-
-
-        //-----------------Time Series Data------------------
-
-        const time_confirmed = [];
-        const time_recovered = [];
-        const time_deaths = [];
-        const time_active = [];
-        const time_dates = [];
-
-        $.each(data.cases_time_series, function (id, obj) {
-            time_confirmed.push(obj.dailyconfirmed);
-            time_deaths.push(obj.dailydeceased);
-            time_recovered.push(obj.dailyrecovered);
-            time_active.push(obj.dailyconfirmed - obj.dailydeceased - obj.dailyrecovered);
-            time_dates.push(obj.date);
+            $("#wconfirmed").append(data.total_cases); //Total Confirmed
+            $("#wactive").append(data.active_cases); //Total Active
+            $("#wrecovered").append(data.total_recovered); //Total Recovered
+            $("#wdeceases").append(data.total_deaths); //Total Deceases
+        }))
+        .catch(err => {
+            console.log(err);
         });
 
+    // Getting Cases by Country
+    fetch("https://coronavirus-monitor.p.rapidapi.com/coronavirus/cases_by_country.php", {
+        "method": "GET",
+        "headers": {
+            "x-rapidapi-host": "coronavirus-monitor.p.rapidapi.com",
+            "x-rapidapi-key": "f3fe549e87msh054dcee16b82229p11cc3ajsn69121657c69d"
+        }
+    })
+        .then(response => response.json().then(data => {
+            
+            // ------------ Getting Table Data ---------------
 
-        let chartConfirm = document.getElementById("wgraph-confirm").getContext("2d");
-        let chartActive = document.getElementById("wgraph-active").getContext("2d");
-        let chartRecover = document.getElementById("wgraph-recover").getContext("2d");
-        let chartDecease = document.getElementById("wgraph-decease").getContext("2d");
+            const countryList = document.querySelector('#country-list');
 
-        Chart.defaults.global.legend = false;
+            data.countries_stat.shift();
+            $.each(data.countries_stat, function (id, obj) {
 
-        makeChart(chartConfirm, time_confirmed, time_dates, "Confirmed");
-        makeChart(chartActive, time_active, time_dates, "Active");
-        makeChart(chartRecover, time_recovered, time_dates, "Recovered");
-        makeChart(chartDecease, time_deaths, time_dates, "Deceases");
+                let tr = document.createElement('tr');
+                let country = document.createElement('td');
+                let confirm = document.createElement('td');
+                let active = document.createElement('td');
+                let recover = document.createElement('td');
+                let decease = document.createElement('td');
 
-    });
-    
+                tr.setAttribute('data-id', id);
+
+                country.textContent = obj.country_name;
+                country.style.color = "white";
+
+                confirm.textContent = obj.cases;
+                confirm.setAttribute("class", "red-covid");
+
+                active.textContent = obj.active_cases;
+                active.setAttribute("class", "blue-covid");
+
+                recover.textContent = obj.total_recovered;
+                recover.setAttribute("class", "green-covid");
+
+                decease.textContent = obj.deaths;
+                decease.setAttribute("class", "gray-covid");
+
+
+
+                tr.appendChild(country);
+                tr.appendChild(confirm);
+                tr.appendChild(active);
+                tr.appendChild(recover);
+                tr.appendChild(decease);
+
+                countryList.appendChild(tr);
+            });
+
+        }))
+        .catch(err => {
+            console.log(err);
+        });
 });
 
 
@@ -283,3 +320,5 @@ map.on('load', function() {
     });
     
 });
+
+
