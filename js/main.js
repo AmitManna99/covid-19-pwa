@@ -1,7 +1,23 @@
 // Tab Selector
 var el = document.querySelector('.tabs');
 var instance = M.Tabs.init(el, {});
+/*
+// Function for Capitalize Each Word
+function titleCase(str) {
+    console.log(str);
+    var splitStr = str.split(" ");
 
+    for (var i = 0; i < splitStr.length; i++) {
+        if (splitStr.length[i] < splitStr.length) {
+            splitStr[i].charAt(0).toUpperCase();
+        }
+
+        str = splitStr.join(" ");
+    }
+    console.log(str);
+    return str;
+}
+  */
 
 // ------------ Make Chart --------------
 
@@ -27,11 +43,11 @@ function makeChart(chartCTX, data, dates, type) {
     let chart = new Chart(chartCTX, {
         type: "line",
         data: {
-            labels: dates.slice(-21, -1),
+            labels: dates.slice(-22,),
             datasets: [
                 {
                     label: type,
-                    data: data.slice(-21, -1),
+                    data: data.slice(-22,),
                     backgroundColor: "rgba(0,0,0,0)",
                     borderColor: brColor
                 }
@@ -97,9 +113,6 @@ $(document).ready(function () {
         $("#del-confirmed").append('[' + data.statewise[0].deltaconfirmed + ']'); 
 
         $("#active").append(data.statewise[0].active); //Total Active
-        let del_active = time_active.slice(-3,-1);
-        //console.log(del_active);
-        $("#del-active").append('[' + (del_active[1]-del_active[0]) + ']');
 
         $("#recovered").append(data.statewise[0].recovered); //Total Recovered
         $("#del-recovered").append('[' + data.statewise[0].deltarecovered + ']');
@@ -159,6 +172,69 @@ $(document).ready(function () {
 $(document).ready(function () {
 
     // Getting Total Cases
+/*
+    fetch("https://covid1935.p.rapidapi.com/api/v1/current", {
+        "method": "GET",
+        "headers": {
+            "x-rapidapi-host": "covid1935.p.rapidapi.com",
+            "x-rapidapi-key": "f3fe549e87msh054dcee16b82229p11cc3ajsn69121657c69d"
+        }
+    })
+        .then(response => response.json().then(data => {
+            
+            // ------------ Getting Table Data ---------------
+            //console.log(data);
+            const countryList = document.querySelector('#country-list');
+
+            //data.countries_stat.shift();
+            $.each(data, function (id, obj) {
+
+                if (obj.country == "world")
+                    continue;
+                    
+                let tr = document.createElement('tr');
+                let country = document.createElement('td');
+                let confirm = document.createElement('td');
+                let active = document.createElement('td');
+                let recover = document.createElement('td');
+                let decease = document.createElement('td');
+
+                tr.setAttribute('data-id', id);
+
+                tempName = obj.country.replace(/-/g," ");
+                country.textContent = tempName.toUpperCase();
+                console.log(country.textContent);
+                country.style.color = "white";
+
+                confirm.textContent = obj.data.cases;
+                confirm.setAttribute("class", "red-covid");
+
+                active.textContent = obj.data.cases - obj.data.recovered - obj.data.deaths;
+                active.setAttribute("class", "blue-covid");
+
+                recover.textContent = obj.data.recovered;
+                recover.setAttribute("class", "green-covid");
+
+                decease.textContent = obj.data.deaths;
+                decease.setAttribute("class", "gray-covid");
+
+
+
+                tr.appendChild(country);
+                tr.appendChild(confirm);
+                tr.appendChild(active);
+                tr.appendChild(recover);
+                tr.appendChild(decease);
+
+                countryList.appendChild(tr);
+            });
+
+        }))
+        .catch(err => {
+            console.log(err);
+        });
+*/
+
     fetch("https://coronavirus-monitor.p.rapidapi.com/coronavirus/worldstat.php", {
         "method": "GET",
         "headers": {
@@ -167,12 +243,16 @@ $(document).ready(function () {
         }
     })
         .then(response =>response.json().then( data =>{
-            //console.log(data);
 
             $("#wconfirmed").append(data.total_cases); //Total Confirmed
+            $("#wdel-confirmed").append('[' + data.new_cases + ']');
+
             $("#wactive").append(data.active_cases); //Total Active
+
             $("#wrecovered").append(data.total_recovered); //Total Recovered
+
             $("#wdeceases").append(data.total_deaths); //Total Deceases
+            $("#wdel-deaths").append('[' + data.new_deaths + ']');
         }))
         .catch(err => {
             console.log(err);
