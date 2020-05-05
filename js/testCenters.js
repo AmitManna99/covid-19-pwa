@@ -17,7 +17,8 @@ $(document).ready(function () {
             tr.setAttribute('class', 'labs')
 			
             place.textContent = obj.Place;
-			place.style.color = "white";
+            place.style.color = "white";
+            place.setAttribute('class', 'labs-place')
 			
             state.textContent = obj.State;
             state.style.color = "white";
@@ -49,14 +50,15 @@ searchBar.addEventListener('keyup'||'keydown', function(e) {
 
     const term = e.target.value.toLowerCase();
     const labs = document.getElementsByClassName('labs');
+    //Grabbing labs-header is causing the issue
     var head = document.getElementById('labs-header');
 
     Array.from(labs).forEach(function(lab){
         //console.log(lab.textContent)
         if(lab.textContent.toLowerCase().indexOf(term) != -1 && lab.textContent.toLowerCase().indexOf(head) == -1 ) {
-            //lab.style.display = 'block';
+            lab.style.display = 'block';
             //var head = document.getElementById('labs-header');
-            head.style.display = 'block';
+            //head.style.display = 'block';
         }
         else {
             lab.style.display = 'none';

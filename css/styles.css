@@ -96,6 +96,10 @@ body {
 .wide-cell {
   min-width: 100px;
 }
+.labs-place {
+  max-width: 400px;
+  width: 40%;
+}
 
 #card-recover {
     background-color: transparent;
