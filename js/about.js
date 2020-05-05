@@ -38,7 +38,7 @@ $(document).ready(function () {
 
             tr.setAttribute('data-id', id);
 			            
-            name.innerHTML = '<a href="' + obj.link + '" target="_blank">' + obj.name + '</a>';
+            name.innerHTML = '<a class="white-text" href="' + obj.link + '" target="_blank">' + obj.name + '</a>';
 
             tr.appendChild(name);
 

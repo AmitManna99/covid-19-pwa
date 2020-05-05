@@ -24,6 +24,7 @@
 
     <!-- Mapbox -->
     <script src='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js'></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />
 
 
@@ -44,7 +45,7 @@
         <ul class="navbar-nav" id="menu_bar">
           <li class="logo">
             <a href="#" class="nav-link">
-              <span class="link-text logo-text">Suraksha</span>
+              <span class="link-text logo-text">Y.A.C.T.</span>
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -192,7 +193,7 @@
     
     <!-- Tabs (India or Worldwide) -->
     <main>
-    <div class="header"><span class="fa-primary">Yet Another.</span><span class="red-covid"> Corona</span> Tracker</div>
+    <div class="header"><span class="fa-primary">Y. A.</span><span class="red-covid"> C.</span> T.</div>
     <div class="tabcontent" id="page_1">
       <div id="body">
         <div class="containter">
@@ -268,7 +269,7 @@
         </div>
 
         <!-- World Wide -->
-        <div id="test-world"">
+        <div id="test-world">
             <!-- Numbers -->
             <div class="row valign-wrapper">
                 <div id="card-confirm" class="card-panel col s3 z-depth-0">
@@ -327,7 +328,7 @@
 
           <div class="col l2 hide-on-med-and-down">
             <select class="browser-default" id="sel-labType">
-              <option value="" disabled selected>Choose Lab Type</option>
+              <option value="" disabled selected>Lab Type</option>
               <option value="Public">Public</option>
               <option value="Private">Private</option>
             </select>
@@ -351,7 +352,7 @@
                   <tr id="labs-header">
                       <th class="blue-text">Place</th>
                       <th class="blue-text">State</th>
-                      <th class="blue-text">Test Type</th>
+                      <th class="blue-text wide-cell">Test Type</th>
                       <th class="blue-text">Org</th>
                   </tr>
               </thead>
@@ -365,11 +366,19 @@
     </div>
 
     <div class="tabcontent" id="page_3">
+      <div class="container center">
+        <div class="add_spacing"></div>
+        <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_505w5e.json" id="lottie_placeholder" background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+        <div class="add_spacing"></div>
+        <span id="about-fundraiser" class="flow-text white-text">Hold on for sometime! <br>This page shall be updated soon.</span>
       
+      </div>
     </div>
 
     <div class="tabcontent" id="page_4">
       <div class="container center">
+        <div class="add_spacing"></div>
+
         <span id="about-main" class="flow-text white-text"></span>
 
         <div class="add_spacing"></div>
@@ -386,10 +395,13 @@
               <!-- Here the dev List will appear-->
           </tbody>
         </table>
+
+        <div class="add_spacing"></div>
+
         <table>
           <thead>
               <tr id="src-header">
-                  <th class="white-text">Sources</th>
+                  <th class="blue-text">Sources</th>
               </tr>
           </thead>
   
