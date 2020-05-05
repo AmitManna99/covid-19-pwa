@@ -7,8 +7,8 @@
     
     <!-- Themes and PWA Tags -->
     
-	<meta name="theme-color" content="blue">
-	<meta name="apple-mobile-web-app-status-bar" content="blue">
+	<meta name="theme-color" content="#151725">
+	<meta name="apple-mobile-web-app-status-bar" content="#151725">
     <link rel="apple-touch-icon" href="images/Icon/icon96.png">
     
 
@@ -19,11 +19,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     
-    
+    <link rel="icon" type="image/png" href="http://example.com/myicon.png">
 
 
     <!-- Mapbox -->
     <script src='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js'></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />
 
 
@@ -36,9 +37,7 @@
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
 
-    <script src="http://d3js.org/d3.v3.min.js"></script>
-
-	<title>COVID-19</title>
+	<title>YACT - Yet Another Covid Tracker</title>
 </head>
 
 <body>
@@ -46,7 +45,7 @@
         <ul class="navbar-nav" id="menu_bar">
           <li class="logo">
             <a href="#" class="nav-link">
-              <span class="link-text logo-text">Suraksha</span>
+              <span class="link-text logo-text">Y.A.C.T.</span>
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -194,11 +193,11 @@
     
     <!-- Tabs (India or Worldwide) -->
     <main>
-    <div class="header"><span class="fa-primary">Another.</span> Tracker</div>
+    <div class="header"><span class="fa-primary">Y. A.</span><span class="red-covid"> C.</span> T.</div>
     <div class="tabcontent" id="page_1">
       <div id="body">
         <div class="containter">
-            <div id='map'></div>
+            <div id="map"></div>
         </div>
 
         <ul id="tabs" class="tabs tabs-fixed-width tab-demo z-depth-1">
@@ -210,19 +209,23 @@
             <div class="row valign-wrapper">
                 <div id="card-confirm" class="card-panel col s3 z-depth-0">
                     <span class="flow-text title">Confirmed</span><br>
-                    <span class="flow-text" id="confirmed"></span>
+                    <span class="flow-text" id="confirmed"></span><br>
+                    <span id="del-confirmed"></span>
                 </div>
                 <div id="card-active" class="card-panel col s3 z-depth-0">
                     <span class="flow-text title">Active</span><br>
-                    <span class="flow-text" id="active"></span>
+                    <span class="flow-text" id="active"></span><br>
+                    <span id="del-active"><br></span>
                 </div>
                 <div id="card-recover" class="card-panel col s3 z-depth-0">
                     <span class="flow-text title">Recovered</span><br>
-                    <span class="flow-text" id="recovered"></span>
+                    <span class="flow-text" id="recovered"></span><br>
+                    <span id="del-recovered"></span>
                 </div>
                 <div id="card-decease" class="card-panel col s3 z-depth-0">
                     <span class="flow-text title">Deceased</span><br>
-                    <span class="flow-text" id="deceases"></span>
+                    <span class="flow-text" id="deceases"></span><br>
+                    <span id="del-deaths"></span>
                 </div>
             </div>
 
@@ -271,37 +274,44 @@
             <div class="row valign-wrapper">
                 <div id="card-confirm" class="card-panel col s3 z-depth-0">
                     <span class="flow-text title">Confirmed</span><br>
-                    <span class="flow-text" id="wconfirmed"></span>
+                    <span class="flow-text" id="wconfirmed"></span><br>
+                    <span id="wdel-confirmed"></span>
                 </div>
                 <div id="card-active" class="card-panel col s3 z-depth-0">
                     <span class="flow-text title">Active</span><br>
-                    <span class="flow-text" id="wactive"></span>
+                    <span class="flow-text" id="wactive"></span><br>
+                    <span id="wdel-active"><br></span>
                 </div>
                 <div id="card-recover" class="card-panel col s3 z-depth-0">
                     <span class="flow-text title">Recovered</span><br>
-                    <span class="flow-text" id="wrecovered"></span>
+                    <span class="flow-text" id="wrecovered"></span><br>
+                    <span id="wdel-recovered"><br></span>
                 </div>
                 <div id="card-decease" class="card-panel col s3 z-depth-0">
                     <span class="flow-text title">Deceased</span><br>
-                    <span class="flow-text" id="wdeceases"></span>
+                    <span class="flow-text" id="wdeceases"></span><br>
+                    <span id="wdel-deaths"></span>
                 </div>
             </div>
 
-            <!-- Graphs -->
-            <div class="row graphs">
-                <div class="col s2 card-panel z-depth-0" id="gr-cn">
-                    <canvas id="wgraph-confirm"></canvas>
-                </div>
-                <div class="col s2 card-panel z-depth-0" id="gr-ac">
-                    <canvas id="wgraph-active"></canvas>
-                </div>
-                <div class="col s2 card-panel z-depth-0" id="gr-rc">
-                    <canvas id="wgraph-recover"></canvas>
-                </div>
-                <div class="col s2 card-panel z-depth-0" id="gr-dc">
-                    <canvas id="wgraph-decease"></canvas>
-                </div>
-            </div>
+            <!-- List of Countries -->
+            <div class="container">
+              <table>
+                  <thead>
+                      <tr>
+                          <th class="white-text">Countries</th>
+                          <th class="red-covid">C</th>
+                          <th class="blue-covid">A</th>
+                          <th class="green-covid">R</th>
+                          <th class="gray-covid">D</th>
+                      </tr>
+                  </thead>
+          
+                  <tbody id="country-list">
+                      
+                  </tbody>
+              </table>
+          </div>
         </div>
     </div>
     </div>
@@ -312,11 +322,29 @@
 
         <!-- Search Bar -->
         <div class="row">
-          <div class="input-field col s10 l6 offset-s1 offset-l3">
+          <div class="input-field col s8 offset-s2 l6 offset-l2">
             <input placeholder="Search" id="search-labs" type="text" class="validate">
           </div>
+
+          <div class="col l2 hide-on-med-and-down">
+            <select class="browser-default" id="sel-labType">
+              <option value="" disabled selected>Lab Type</option>
+              <option value="Public">Public</option>
+              <option value="Private">Private</option>
+            </select>
+          </div>
         </div>
-                    
+
+        <div class="row hide-on-large-only">
+          <div class="col s4 offset-s4">
+            <select class="browser-default" id="selm-labType" onchange="selectLab()">
+              <option value="" disabled selected>Lab Type</option>
+              <option value="Public">Public</option>
+              <option value="Private">Private</option>
+            </select>
+          </div>
+        </div>
+                   
         <!-- List of Centers -->
         <div class="container">
           <table>
@@ -338,20 +366,59 @@
     </div>
 
     <div class="tabcontent" id="page_3">
+      <div class="container center">
+        <div class="add_spacing"></div>
+        <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_505w5e.json" id="lottie_placeholder" background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+        <div class="add_spacing"></div>
+        <span id="about-fundraiser" class="flow-text white-text">Hold on for sometime! <br>This page shall be updated soon.</span>
       
+      </div>
     </div>
 
     <div class="tabcontent" id="page_4">
-      
-    </div>
+      <div class="container center">
+        <div class="add_spacing"></div>
 
+        <span id="about-main" class="flow-text white-text"></span>
+
+        <div class="add_spacing"></div>
+
+        <table>
+          <thead>
+              <tr id="dev-header">
+                  <th class="blue-text">Name</th>
+                  <th class="blue-text">Profiles</th>
+              </tr>
+          </thead>
+  
+          <tbody id="dev-list">
+              <!-- Here the dev List will appear-->
+          </tbody>
+        </table>
+
+        <div class="add_spacing"></div>
+
+        <table>
+          <thead>
+              <tr id="src-header">
+                  <th class="blue-text">Sources</th>
+              </tr>
+          </thead>
+  
+          <tbody id="src-list">
+              <!-- Here the Sources List will appear-->
+          </tbody>
+      </table>
+      </div>
+    </div>
+      
     <div class="add_spacing">
 
     </div>
 </main>
     <script src="js/transition.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/ui.js"></script>
+    <script src="js/about.js"></script>
     <script src="js/app.js"></script>
     <script src="js/testCenters.js"></script>
     </script>

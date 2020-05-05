@@ -43,22 +43,69 @@ $(document).ready(function () {
     });
 });
 
+
+// =========== Filter by Select ============
+
+const select = document.getElementById('sel-labType');
+
+select.addEventListener('change', function(e) {
+    const term = e.target.value;
+
+    const table = document.getElementById("lab-list");
+    const labs = table.getElementsByTagName('tr');
+    var head = document.getElementById('labs-header');
+
+    Array.from(labs).forEach(function(lab){
+        console.log(lab.textContent)
+        if(lab.textContent.indexOf(term) != -1 && lab.textContent.indexOf(head) == -1 ) {
+            lab.style.display = '';
+            head.style.display = '';
+        }
+        else {
+            lab.style.display = 'none';
+        }
+    });
+});
+
+
+// ============= Also Working Now ============
+function selectLab() {
+
+    const select = document.getElementById('selm-labType');
+    console.log(select.options[select.selectedIndex].value);
+    const term = select.options[select.selectedIndex].value;
+    //console.log(term);
+    const table = document.getElementById("lab-list");
+    const labs = table.getElementsByTagName('tr');
+    var head = document.getElementById('labs-header');
+
+    Array.from(labs).forEach(function(lab){
+        if(lab.textContent.indexOf(term) != -1 && lab.textContent.indexOf(head) == -1 ) {
+            lab.style.display = '';
+            head.style.display = '';
+        }
+        else {
+            lab.style.display = 'none';
+        }
+    });
+};
+
+
 // -------------Search Bar Function --------------
 const searchBar = document.getElementById('search-labs');
 
 searchBar.addEventListener('keyup'||'keydown', function(e) {
 
     const term = e.target.value.toLowerCase();
-    const labs = document.getElementsByClassName('labs');
-    //Grabbing labs-header is causing the issue
+    const table = document.getElementById("lab-list");
+    const labs = table.getElementsByTagName('tr');
     var head = document.getElementById('labs-header');
 
     Array.from(labs).forEach(function(lab){
         //console.log(lab.textContent)
         if(lab.textContent.toLowerCase().indexOf(term) != -1 && lab.textContent.toLowerCase().indexOf(head) == -1 ) {
-            lab.style.display = 'block';
-            //var head = document.getElementById('labs-header');
-            //head.style.display = 'block';
+            //lab.style.display = 'block';
+            head.style.display = '';
         }
         else {
             lab.style.display = 'none';

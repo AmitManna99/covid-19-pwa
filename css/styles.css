@@ -14,6 +14,14 @@ body {
   color: white;
 }
 
+#about-main {
+  font-size: 18px;
+}
+
+#lottie_placeholder {
+  margin: 0 auto;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -99,6 +107,14 @@ body {
 .labs-place {
   max-width: 400px;
   width: 40%;
+}
+
+#sel-labType {
+  position: relative;
+  color: white;
+  background-color: rgb(27, 29, 48);
+  border: none;
+  top: 17px;
 }
 
 #card-recover {
