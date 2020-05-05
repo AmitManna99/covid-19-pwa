@@ -4,10 +4,6 @@
 	"main_text": "Yet Another Corona Tracker(YACT), as the name suggests, is yet another Corona tracker!! The Tracker keeps record of the data of the total cases in India state-wise, on a day-to-day basis. Besides it also keeps track of the worldwide Covid-19 cases country-wise. We have also put out a Global Map to show this numbers easily. But we also want to help in our small way, so we have provided a list of all the Medical Test Centers for Covid-19 in India, as well as a list of fundraisers for the disease.",
 	"developers": [
 		{
-			"dev_name": "Shuvam Manna",
-			"github_link": "https://github.com/geekboysupreme"
-		},
-		{
 			"dev_name": "Amit Manna",
 			"github_link": "https://github.com/amitm99"
 		},
@@ -18,6 +14,10 @@
 		{
 			"dev_name": "Faiz Bachoo Shah",
 			"github_link": "https://github.com/FaizBShah"
+		},
+		{
+			"dev_name": "Shuvam Manna",
+			"github_link": "https://github.com/geekboysupreme"
 		}
 	],
 	"sources": [
